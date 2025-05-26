@@ -17,7 +17,7 @@
     const searchBtn = d3.select("#searchBtn");
     const resetBtn = d3.select("#resetBtn");
 
-    d3.json("data/cooccurrence_network.json").then(function(graph) {
+    d3.json("visualization_project/data/cooccurrence_network.json").then(function(graph) {
     const totalLinkCounts = {};
     graph.links.forEach(l => {
         totalLinkCounts[l.source] = (totalLinkCounts[l.source] || 0) + l.value;

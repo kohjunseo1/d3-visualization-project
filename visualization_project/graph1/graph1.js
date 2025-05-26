@@ -13,7 +13,7 @@ const tooltip = d3.select("body").append("div")
                   .attr("class", "tooltip1")
                   .style("opacity", 0);
 
-d3.csv("data/linechart_data.csv").then(data => {
+d3.csv("visualization_project/data/linechart_data.csv").then(data => {
   data.forEach(d => {
     d.RelYear = +d.RelYear;
     d.AvgPerYear = +d.AvgPerYear;
