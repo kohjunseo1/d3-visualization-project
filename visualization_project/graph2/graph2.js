@@ -55,7 +55,7 @@
     .attr("fill", "black")
     .text("Number of Papers");
 
-  d3.csv("/data/Prize_winning_papers.csv").then(data => {
+  d3.csv("visualization_project/data/Prize_winning_papers.csv").then(data => {
     data.forEach(d => {
       d["Pub year"] = +d["Pub year"];
       d["Prize year"] = +d["Prize year"];
