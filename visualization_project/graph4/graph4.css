@@ -1,0 +1,23 @@
+
+body { font-family: sans-serif; margin: 20px; }
+h2 { margin-top: 40px; margin-bottom: 10px; }
+svg.network-graph {
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    width: 1200px;
+    height: 800px;
+}
+.node { stroke: #fff; stroke-width: 1.5px; cursor: pointer; }
+.link { stroke: #999; stroke-opacity: 0.6; }
+.tooltip4 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 14px;
+    display: none;
+}

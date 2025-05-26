@@ -1,0 +1,875 @@
+Laureate name,Prize year,Field,Affiliation,Guessed Country
+"thouless, dj",2016,Physics,university of washington,USA
+"kosterlitz, jm",2016,Physics,brown university,USA
+"haldane, fdm",2016,Physics,university of southern california,USA
+"kajita, t",2015,Physics,university of tokyo,Japan
+"mcdonald, ab",2015,Physics,queen s university,Canada
+"mcdonald, ab",2015,Physics,university of oxford,UK
+"akasaki, isamu",2014,Physics,meijo university,Japan
+"amano, hiroshi",2014,Physics,nagoya university,Japan
+"nakamura, shuji",2014,Physics,university of california santa barbara,USA
+"englert, f",2013,Physics,Universite libre de Bruxelles,Belgium
+"higgs, pw",2013,Physics,university of edinburgh,UK
+"higgs, pw",2013,Physics,university of edinburgh,UK
+"haroche, serge",2012,Physics,college de france,France
+"haroche, serge",2012,Physics,college de france,France
+"wineland, david",2012,Physics,national institute of standards and technology,USA
+"wineland, david",2012,Physics,national institute of standards and technology,USA
+"wineland, david",2012,Physics,national institute of standards and technology,USA
+"perlmutter, s",2011,Physics,lawrence berkeley national laboratory,USA
+"schmidt, bp",2011,Physics,australian national university,Austria
+"riess, adam g.",2011,Physics,harvard university,USA
+"novoselov, kostya s.",2010,Physics,university of manchester,UK
+"geim, andre k.",2010,Physics,university of manchester,UK
+"kao, kc",2009,Physics,Chinese University of Hong Kong,China
+"boyle, ws",2009,Physics,Bell Labs,USA
+"smith, ge",2009,Physics,Bell Labs,USA
+"nambu, yoichiro",2008,Physics,university of chicago,USA
+"nambu, yoichiro",2008,Physics,university of chicago,USA
+"nambu, yoichiro",2008,Physics,university of chicago,USA
+"kobayash, m",2008,Physics,kyoto university,Japan
+"maskawa, t",2008,Physics,kyoto university,Japan
+"fert, a",2007,Physics,centre national de la recherche scientifique,France
+"grunberg, p",2007,Physics,forschungszentrum julich,Germany
+"mather, jc",2006,Physics,goddard space flight center,USA
+"smoot, gf",2006,Physics,university of california berkeley,USA
+"glauber, rj",2005,Physics,harvard university,USA
+"glauber, rj",2005,Physics,harvard university,USA
+"hall, jl",2005,Physics,university of colorado boulder,USA
+"hall, jl",2005,Physics,university of colorado boulder,USA
+"hansch, tw",2005,Physics,max planck society,Germany
+"hansch, tw",2005,Physics,max planck society,Germany
+"hansch, tw",2005,Physics,max planck society,Germany
+"wilczek, f",2004,Physics,Massachusetts Institute of Technology,USA
+"gross, dj",2004,Physics,princeton university,USA
+"politzer, hd",2004,Physics,california institute of technology,USA
+"abrikosov, aa",2003,Physics,argonne national laboratory,USA
+"leggett, aj",2003,Physics,university of illinois at urbana champaign,USA
+"leggett, aj",2003,Physics,university of illinois at urbana champaign,USA
+"leggett, aj",2003,Physics,university of illinois at urbana champaign,USA
+"leggett, aj",2003,Physics,university of illinois at urbana champaign,USA
+"leggett, aj",2003,Physics,university of illinois at urbana champaign,USA
+"ginzburg, vl",2003,Physics,Lebedev Physical Institute,Russia
+"koshiba, m",2002,Physics,university of tokyo,Japan
+"koshiba, m",2002,Physics,university of tokyo,Japan
+"giacconi, r",2002,Physics,Johns Hopkins University,USA
+raymond davis jr.,2002,Physics,Monsanto,USA
+"cornell, ea",2001,Physics,University of Colorado Boulder,USA
+"ketterle, w",2001,Physics,University of Heidelberg,Germany
+"wieman, ce",2001,Physics,University of British Columbia,USA
+kroemer herbert ,2000,Physics,university of california santa barbara,USA
+"alferov, zi",2000,Physics,russian academy of sciences,Russia
+"alferov, zi",2000,Physics,russian academy of sciences,Russia
+"kilby, js",2000,Physics,texas instruments,USA
+"veltman, m",1999,Physics,university of michigan,USA
+"thooft, g",1999,Physics,utrecht university,Netherlands
+"stormer, hl",1998,Physics,columbia university,USA
+"tsui, dc",1998,Physics,princeton university,USA
+"laughlin, rb",1998,Physics,stanford university,USA
+"phillips, wd",1997,Physics,national institute of standards and technology,USA
+"cohentannoudji, c",1997,Physics,College_de_France,France
+"chu, s",1997,Physics,stanford university,USA
+"lee, dm",1996,Physics,texas a m university,USA
+"lee, dm",1996,Physics,texas a m university,USA
+"osheroff, dd",1996,Physics,Stanford University,USA
+"richards, rc",1996,Physics,cornell university,USA
+"richards, rc",1996,Physics,cornell university,USA
+"perl, ml",1995,Physics,ben gurion university of the negev,Israel
+"perl, ml",1995,Physics,ben gurion university of the negev,Israel
+"perl, ml",1995,Physics,stanford university,USA
+"reines, f",1995,Physics,university of california irvine,USA
+"shull, cg",1994,Physics,massachusetts institute of technology,USA
+"brockhouse, bn",1994,Physics,atomic energy of canada limited,USA
+"brockhouse, bn",1994,Physics,atomic energy of canada limited,USA
+"hulse, ra",1993,Physics,University of Texas at Dallas,USA
+"taylor, jh",1993,Physics,Stanford Linear Accelerator Center,USA
+"charpak, g",1992,Physics,cern,Other
+"degennes, pg",1991,Physics,University_of_Paris_X,France
+"taylor, re",1990,Physics,stanford university,USA
+"taylor, re",1990,Physics,stanford university,USA
+"taylor, re",1990,Physics,stanford university,USA
+"taylor, re",1990,Physics,stanford university,USA
+"friedman, ji",1990,Physics,massachusetts institute of technology,USA
+"friedman, ji",1990,Physics,massachusetts institute of technology,USA
+"friedman, ji",1990,Physics,massachusetts institute of technology,USA
+"friedman, ji",1990,Physics,massachusetts institute of technology,USA
+"kendall, hw",1990,Physics,massachusetts institute of technology,USA
+"kendall, hw",1990,Physics,massachusetts institute of technology,USA
+"kendall, hw",1990,Physics,massachusetts institute of technology,USA
+"kendall, hw",1990,Physics,massachusetts Institute of Technology,USA
+"kendall, hw",1990,Physics,massachusetts institute of technology,USA
+"ramsey, nf",1989,Physics,harvard university,USA
+"dehmelt, hg",1989,Physics,university of Washington,USA
+"dehmelt, hg",1989,Physics,university of washington,USA
+"dehmelt, hg",1989,Physics,university of washington,USA
+"paul, w",1989,Physics,University of Bonn,Germany
+"steinberger, j",1988,Physics,brookhaven national laboratory,USA
+"schwartz, m",1988,Physics,brookhaven national laboratory,USA
+"lederman, lm",1988,Physics,fermilab,USA
+"muller, ka",1987,Physics,ibm,USA
+"bednorz, jg",1987,Physics,ibm,USA
+"binnig, g",1986,Physics,ibm,USA
+"binnig, g",1986,Physics,ibm,USA
+"rohrer, h",1986,Physics,ibm,USA
+"ruska, e",1986,Physics,Fritz Haber Institute,Germany
+"vonklitzing, k",1985,Physics,,Unknown
+"rubbia, c",1984,Physics,cern,Other
+"rubbia, c",1984,Physics,cern,Other
+"vandermeer, s",1984,Physics,cern,Other
+"vandermeer, s",1984,Physics,cern,Other
+"fowler, wa",1983,Physics,california institute of technology,USA
+"chandrasekhar, s",1983,Physics,university of chicago,USA
+"wilson, kg",1982,Physics,ohio state university,USA
+"wilson, kg",1982,Physics,ohio state university,USA
+"siegbahn, k",1981,Physics,University of Stockholm,Sweden
+"schawlow, al",1981,Physics,stanford university,USA
+"bloember, n",1981,Physics,harvard university,USA
+"bloember, n",1981,Physics,harvard university,USA
+"cronin, jw",1980,Physics,university of chicago,USA
+"fitch, v",1980,Physics,princeton university,USA
+"salam, a",1979,Physics,Government_College_University,Pakistan
+"weinberg, s",1979,Physics,university of texas at austin,USA
+"glashow, sl",1979,Physics,university of copenhagen,Denmark
+"kapitza, pl",1978,Physics,Moscow_State_University,Russia
+"wilson, rw",1978,Physics,alcatel lucent,France
+"penzias, aa",1978,Physics,bell labs,USA
+"mott, n",1977,Physics,university of bristol,UK
+"anderson, pw",1977,Physics,princeton university,USA
+"vanvleck, jh",1977,Physics,University_of_Minnesota,USA
+"vanvleck, jh",1977,Physics,University_of_Minnesota,USA
+"ting, scc",1976,Physics,massachusetts institute of technology,USA
+"richter, b",1976,Physics,stanford university,USA
+"richter, b",1976,Physics,stanford university,USA
+"bohr, a.",1975,Physics,Manhattan Project,Other
+"bohr, a.",1975,Physics,Manhattan Project,Other
+"mottelson, br",1975,Physics,niels bohr institute,Denmark
+"mottelson, br",1975,Physics,niels bohr institute,Denmark
+"rainwater, j",1975,Physics,columbia university,USA
+"ryle, m",1974,Physics,University of Cambridge,UK
+"hewish, a",1974,Physics,University of Cambridge,UK
+"esaki, l",1973,Physics,IBM,USA
+"giaever, i",1973,Physics,general electric,USA
+"giaever, i",1973,Physics,general electric,USA
+"giaever, i",1973,Physics,general electric,USA
+"giaever, i",1973,Physics,general electric,USA
+"josephson, bd",1973,Physics,university of cambridge,UK
+"schrieffer, jr",1972,Physics,university of illinois at urbana champaign,USA
+"cooper, ln",1972,Physics,brown university,USA
+"bardeen, j",1972,Physics,university of illinois at urbana champaign,USA
+"gabor, d",1971,Physics,college of science and technology,Other
+"gabor, d",1971,Physics,college of science and technology,Other
+"neel, l",1970,Physics,CNRS,France
+"alfven, h",1970,Physics,University of Uppsala,Sweden
+"alfven, h",1970,Physics,University of Uppsala,Sweden
+"gellmann, m",1969,Physics,Santa Fe Institute,USA
+"gellmann, m",1969,Physics,Santa Fe Institute,USA
+"gellmann, m",1969,Physics,Santa Fe Institute,USA
+"alvarez, lw",1968,Physics,university of chicago,USA
+"alvarez, lw",1968,Physics,"University of California, Berkeley",USA
+"bethe, ha",1967,Physics,cornell university,USA
+"kastler, a",1966,Physics,University of Bordeaux,Other
+"feynman, rp",1965,Physics,california institute of technology,USA
+"feynman, rp",1965,Physics,california institute of technology,USA
+"feynman, rp",1965,Physics,california institute of technology,USA
+"feynman, rp",1965,Physics,california institute of technology,USA
+"feynman, rp",1965,Physics,california institute of technology,USA
+"schwinger, j",1965,Physics,university of california los angeles,USA
+"schwinger, j",1965,Physics,university of california los angeles,USA
+"tomonaga, si",1965,Physics,Leipzig University,Germany
+"tomonaga, si",1965,Physics,Leipzig University,Germany
+"prokhorov, am",1964,Physics,,Unknown
+"townes, ch",1964,Physics,university of california berkeley,USA
+"townes, ch",1964,Physics,university of california berkeley,USA
+"basov, ng",1964,Physics,Lebedev Physical Institute,Russia
+"jensen, jhd",1963,Physics,University_of_Hamburg,Germany
+"mayer, mg",1963,Physics,Sarah Lawrence College,USA
+"wigner, ep",1963,Physics,princeton university,USA
+"wigner, ep",1963,Physics,princeton university,USA
+"landau, l",1962,Physics,Kharkiv Polytechnic Institute,Ukraine
+"mossbauer, rl",1961,Physics,max planck society,Germany
+"mossbauer, rl",1961,Physics,california institute of technology,USA
+"hofstadter, r",1961,Physics,stanford university,USA
+"glaser, da",1960,Physics,university of california berkeley,USA
+"chamberlain, o",1959,Physics,university of california berkeley,USA
+"segre, e",1959,Physics,Los Alamos National Laboratory,USA
+"cherenkov, pa",1958,Physics,Lebedev Physical Institute,Russia
+"tamm, i",1958,Physics,Second Moscow State University,Russia
+"frank, i",1958,Physics,University at Albany,USA
+"lee, td",1957,Physics,columbia university,USA
+"yang, cn",1957,Physics,Stony Brook University,USA
+"bardeen, j",1956,Physics,bell labs,USA
+"brattain, wh",1956,Physics,bell labs,USA
+"shockley, w",1956,Physics,bell labs,USA
+"shockley, w",1956,Physics,Bell Telephone Laboratories,USA
+"kusch, p",1955,Physics,University of Texas at Dallas,USA
+"lamb, we",1955,Physics,yale university,USA
+"born, m",1954,Physics,university of edinburgh,UK
+"born, m",1954,Physics,university of edinburgh,UK
+"born, m",1954,Physics,Goethe University Frankfurt,Germany
+"born, m",1954,Physics,Goethe University Frankfurt,Germany
+"born, m",1954,Physics,Goethe University Frankfurt,Germany
+"bothe, w",1954,Physics,University of Berlin,Germany
+"zernike, f",1953,Physics,Groningen University,Netherlands
+"bloch, f",1952,Physics,stanford university,USA
+"purcell, em",1952,Physics,harvard university,USA
+"walton, ets",1951,Physics,University of Cambridge,UK
+"cockcroft, jd",1951,Physics,university of cambridge,UK
+"powell, cf",1950,Physics,University of Cambridge,UK
+"powell, cf",1950,Physics,University of Cambridge,UK
+"yukawa, h",1949,Physics,kyoto university,Japan
+"yukawa, h",1949,Physics,kyoto university,Japan
+"blackett, pms",1948,Physics,University of Cambridge,UK
+"blackett, pms",1948,Physics,university of cambridge,UK
+"appleton, ev",1947,Physics,king s college london,UK
+"appleton, ev",1947,Physics,National Physical Laboratory (United Kingdom),UK
+"bridgman, pw",1946,Physics,Harvard University,USA
+"bridgman, pw",1946,Physics,Harvard University,USA
+"bridgman, pw",1946,Physics,Harvard University,USA
+"pauli, w",1945,Physics,University of Gottingen,Germany
+"rabi, ii",1944,Physics,columbia university,USA
+"stern, o",1943,Physics,university of hamburg,Germany
+"stern, o",1943,Physics,university of hamburg,Germany
+"lawrence, eo",1939,Physics,university of california berkeley,USA
+"lawrence, eo",1939,Physics,university of california berkeley,USA
+"fermi, e",1938,Physics,University of Gottingen,Germany
+"davisson, cj",1937,Physics,bell labs,USA
+"thomson, gp",1937,Physics,University of Aberdeen,Scotland
+victor f. hess,1936,Physics,University of Zurich,Switzerland
+"anderson, cd",1936,Physics,california institute of technology,USA
+"chadwick, j",1935,Physics,Physikalisch-Technische Reichsanstalt,Other
+"schrodinger, e",1933,Physics,dublin institute for advanced studies,Ireland
+"schrodinger, e",1933,Physics,dublin institute for advanced studies,Ireland
+"schrodinger, e",1933,Physics,dublin institute for advanced studies,Ireland
+"schrodinger, e",1933,Physics,dublin institute for advanced studies,Ireland
+"dirac, pam",1933,Physics,florida state university,USA
+"heisenberg, w",1932,Physics,University of Gottingen,Germany
+"raman, cv",1930,Physics,indian institute of science,India
+"broglie, ld",1929,Physics,french academy of sciences,UK
+"richardson, ow",1928,Physics,Cornell University,USA
+"compton, ah",1927,Physics,university of chicago,USA
+"compton, ah",1927,Physics,university of chicago,USA
+"compton, ah",1927,Physics,Washington University in St. Louis,USA
+"wilson, ctr",1927,Physics,university of cambridge,UK
+"perrin, j",1926,Physics,Ecole Normale Superieure,South Africa
+gustav hertz,1925,Physics,Halle University,Germany
+gustav hertz,1925,Physics,Halle University,Germany
+"franck, j",1925,Physics,Humboldt University of Berlin,Germany
+"franck, j",1925,Physics,Humboldt University of Berlin,Germany
+"siegbahn, m",1924,Physics,University of Stockholm,Sweden
+"siegbahn, m",1924,Physics,University of Stockholm,Sweden
+"siegbahn, m",1924,Physics,University of Stockholm,Sweden
+"millikan, ra",1923,Physics,california institute of technology,USA
+"millikan, ra",1923,Physics,california institute of technology,USA
+"bohr, n",1922,Physics,Manhattan Project,Other
+"bohr, n",1922,Physics,Manhattan Project,Other
+"bohr, n",1922,Physics,Manhattan Project,Other
+"bohr, n",1922,Physics,Manhattan Project,Other
+"einstein, a",1921,Physics,institute for advanced study,USA
+"einstein, a",1921,Physics,institute for advanced study,USA
+"einstein, a",1921,Physics,University of Bern,Switzerland
+charles edouard guillaume,1920,Physics,International Bureau of Weights and Measures,Other
+"stark, j",1919,Physics,University of Gottingen,Germany
+"planck, m",1918,Physics,University of Kiel,Germany
+"barkla, cg",1917,Physics,university of cambridge,UK
+"bragg, wl",1915,Physics,university of cambridge,UK
+"bragg, wl",1915,Physics,University of Adelaide,Australia
+"bragg, wh",1915,Physics,university of leeds,UK
+"laue, m",1914,Physics,University of Zurich,Switzerland
+"onnes, hk",1913,Physics,Leiden University,Netherlands
+"wien, w",1911,Physics,University of Giessen,Other
+albert a. michelson,1907,Physics,university of chicago,USA
+joseph john thomson,1906,Physics,University of Aberdeen,Scotland
+"lenard, p",1905,Physics,Aachen University of Technology,Germany
+"zeeman, p",1902,Physics,University of Amsterdam,Netherlands
+"zeeman, p",1902,Physics,University of Amsterdam,Netherlands
+"stoddart, j",2016,Chemistry,northwestern university,USA
+"feringa, b",2016,Chemistry,University of Groningen,Netherlands
+"sauvage, j",2016,Chemistry,University of Strasbourg,France
+"modrich, p",2015,Chemistry,Duke University,USA
+"lindahl, t",2015,Chemistry,Francis Crick Institute,France
+"sancar, a",2015,Chemistry,university of north carolina at chapel hill,USA
+"moerner, w",2014,Chemistry,stanford university,USA
+"betzig, e",2014,Chemistry,bell labs,USA
+"betzig, e",2014,Chemistry,bell labs,USA
+"betzig, e",2014,Chemistry,bell labs,USA
+"hell, s",2014,Chemistry,max planck society,Germany
+"levitt, m",2013,Chemistry,stanford university,USA
+"levitt, m",2013,Chemistry,stanford university,USA
+"warshel, a",2013,Chemistry,university of southern california,USA
+"warshel, a",2013,Chemistry,university of southern california,USA
+"warshel, a",2013,Chemistry,Weizmann Institute of Science,Israel
+"karplus, m",2013,Chemistry,Universite de Strasbourg,France
+"lefkowitz, r",2012,Chemistry,duke university,USA
+"kobilka, b",2012,Chemistry,stanford university,USA
+"shechtman, d",2011,Chemistry,technion israel institute of technology,Israel
+"heck, r",2010,Chemistry,wilmington university,USA
+"heck, r",2010,Chemistry,wilmington university,USA
+"heck, r",2010,Chemistry,wilmington university,USA
+"heck, r",2010,Chemistry,wilmington university,USA
+"heck, r",2010,Chemistry,University of Delaware,USA
+"negishi, e",2010,Chemistry,Teijin,Other
+"negishi, e",2010,Chemistry,Teijin,Other
+"suzuki, a",2010,Chemistry,hokkaido university,Japan
+"ramakrishnan, v",2009,Chemistry,laboratory of molecular biology,UK
+"ramakrishnan, v",2009,Chemistry,laboratory of molecular biology,UK
+"steitz, t",2009,Chemistry,yale university,USA
+"steitz, t",2009,Chemistry,yale university,USA
+"steitz, t",2009,Chemistry,yale university,USA
+"yonath, a",2009,Chemistry,Weizmann Institute of Science,Israel
+"chalfie, m",2008,Chemistry,columbia university,USA
+"tsien, r",2008,Chemistry,university of california san diego,USA
+"tsien, r",2008,Chemistry,university of california san diego,USA
+"tsien, r",2008,Chemistry,university of california san diego,USA
+"tsien, r",2008,Chemistry,university of california san diego,USA
+"tsien, r",2008,Chemistry,university of california san diego,USA
+shimomur.o,2008,Chemistry,princeton university,USA
+"ertl, g",2007,Chemistry,max planck society,Germany
+"ertl, g",2007,Chemistry,max planck society,Germany
+"ertl, g",2007,Chemistry,max planck society,Germany
+"ertl, g",2007,Chemistry,max planck society,Germany
+"ertl, g",2007,Chemistry,max planck society,Germany
+"ertl, g",2007,Chemistry,Technical University of Munich,Germany
+"kornberg, r",2006,Chemistry,stanford university,USA
+"chauvin, y",2005,Chemistry,institut francais,France
+"grubbs, r",2005,Chemistry,california institute of technology,USA
+"grubbs, r",2005,Chemistry,california institute of technology,USA
+"schrock, r",2005,Chemistry,massachusetts institute of technology,USA
+"schrock, r",2005,Chemistry,massachusetts institute of technology,USA
+"ciechanover, a",2004,Chemistry,technion israel institute of technology,Israel
+"ciechanover, a",2004,Chemistry,technion israel institute of technology,Israel
+"hershko, a",2004,Chemistry,technion israel institute of technology,Israel
+"hershko, a",2004,Chemistry,technion israel institute of technology,Israel
+"rose, i",2004,Chemistry,fox chase cancer center,Other
+"agre, p",2003,Chemistry,johns hopkins university,USA
+"mackinnon, r",2003,Chemistry,howard hughes medical institute,USA
+"wuthrich, k",2002,Chemistry,scripps research institute,USA
+"tanaka, k",2002,Chemistry,Shimadzu Corp.,Other
+"fenn, j",2002,Chemistry,virginia commonwealth university,USA
+"noyori, r",2001,Chemistry,kyoto university,Japan
+"knowles, w",2001,Chemistry,Monsanto Company,Other
+"sharpless, k",2001,Chemistry,scripps research institute,USA
+"heeger, a",2000,Chemistry,university of california santa barbara,USA
+"heeger, a",2000,Chemistry,university of california santa barbara,USA
+shirakaw.h,2000,Chemistry,university of pennsylvania,USA
+shirakaw.h,2000,Chemistry,university of pennsylvania,USA
+"macdiarmid, a",2000,Chemistry,university of pennsylvania,USA
+"macdiarmid, a",2000,Chemistry,university of pennsylvania,USA
+"zewail, a",1999,Chemistry,california institute of technology,USA
+"pople, j",1998,Chemistry,carnegie mellon university,USA
+"kohn, w",1998,Chemistry,university of california santa barbara,USA
+"kohn, w",1998,Chemistry,university of california santa barbara,USA
+"boyer, p",1997,Chemistry,Stanford University,USA
+"walker, j",1997,Chemistry,university of cambridge,UK
+"skou, j",1997,Chemistry,institute of biophysics,Germany
+"kroto, h",1996,Chemistry,florida state university,USA
+"smalley, r",1996,Chemistry,rice university,USA
+"curl, r",1996,Chemistry,rice university,USA
+"molina, m",1995,Chemistry,university of california san diego,USA
+"crutzen, p",1995,Chemistry,max planck society,Germany
+"rowland, f",1995,Chemistry,university of california irvine,USA
+"olah, g",1994,Chemistry,university of southern california,USA
+"smith, m",1993,Chemistry,Bell Labs,USA
+"smith, m",1993,Chemistry,Bell Labs,USA
+"smith, m",1993,Chemistry,Bell Labs,USA
+"mullis, k",1993,Chemistry,hoffmann la roche,Switzerland
+"mullis, k",1993,Chemistry,hoffmann la roche,Switzerland
+"marcus, r",1992,Chemistry,california institute of technology,USA
+"ernst, r",1991,Chemistry,eth zurich,Switzerland
+"ernst, r",1991,Chemistry,eth zurich,Switzerland
+"ernst, r",1991,Chemistry,eth zurich,Switzerland
+"corey, e",1990,Chemistry,University of Illinois Urbana-Champaign,USA
+"cech, t",1989,Chemistry,howard hughes medical institute,USA
+"altman, s",1989,Chemistry,yale university,USA
+"deisenhofer, j",1988,Chemistry,university of texas southwestern medical center,USA
+"deisenhofer, j",1988,Chemistry,university of texas southwestern medical center,USA
+"huber, r",1988,Chemistry,max planck society,Germany
+"huber, r",1988,Chemistry,max planck society,Germany
+"michel, h",1988,Chemistry,institute of biophysics,Germany
+"michel, h",1988,Chemistry,institute of biophysics,Germany
+"michel, h",1988,Chemistry,institute of biophysics,Germany
+"cram, d",1987,Chemistry,university of california los angeles,USA
+"lehn, j",1987,Chemistry,University of Strasbourg,France
+"pedersen, c",1987,Chemistry,DuPont,South Africa
+"polanyi, j",1986,Chemistry,university of toronto,Canada
+"polanyi, j",1986,Chemistry,university of toronto,Canada
+herschba.dr,1986,Chemistry,harvard university,USA
+herschba.dr,1986,Chemistry,harvard university,USA
+"lee, y",1986,Chemistry,academia sinica,China
+"lee, y",1986,Chemistry,academia sinica,China
+"lee, y",1986,Chemistry,academia sinica,China
+"karle, j",1985,Chemistry,,Unknown
+"hauptman, h",1985,Chemistry,Hauptman-Woodward Medical Research Institute,South Africa
+merrifie.rb,1984,Chemistry,rockefeller university,USA
+"taube, h",1983,Chemistry,Cornell University,USA
+"klug, a",1982,Chemistry,laboratory of molecular biology,UK
+"klug, a",1982,Chemistry,birkbeck university of london,UK
+"fukui, k",1981,Chemistry,kyoto university,Japan
+"hoffmann, r",1981,Chemistry,cornell university,USA
+"hoffmann, r",1981,Chemistry,cornell university,USA
+"hoffmann, r",1981,Chemistry,cornell university,USA
+"hoffmann, r",1981,Chemistry,cornell university,USA
+"hoffmann, r",1981,Chemistry,cornell university,USA
+"gilbert, w",1980,Chemistry,Harvard University,USA
+"sanger, f",1980,Chemistry,laboratory of molecular biology,UK
+"berg, p",1980,Chemistry,stanford university,USA
+"wittig, g",1979,Chemistry,university of tubingen,Germany
+"wittig, g",1979,Chemistry,university of tubingen,Germany
+"brown, h",1979,Chemistry,University of Chicago,USA
+"mitchell, p",1978,Chemistry,University of Edinburgh,UK
+"prigogine, i",1977,Chemistry,Free University of Brussels (1834-1969),Other
+"lipscomb, w",1976,Chemistry,harvard university,USA
+"lipscomb, w",1976,Chemistry,harvard university,USA
+"lipscomb, w",1976,Chemistry,harvard university,USA
+"lipscomb, w",1976,Chemistry,University of Minnesota,USA
+"prelog, v",1975,Chemistry,technische hochschule,Other
+"prelog, v",1975,Chemistry,technische hochschule,Other
+"prelog, v",1975,Chemistry,technische hochschule,Other
+cornfort.jw,1975,Chemistry,University of Oxford,UK
+"flory, p",1974,Chemistry,stanford university,USA
+"flory, p",1974,Chemistry,stanford university,USA
+wilkinso.g,1973,Chemistry,imperial college london,UK
+"fischer, e",1973,Chemistry,University of Washington,USA
+"anfinsen, c",1972,Chemistry,national institutes of health,USA
+"stein, w",1972,Chemistry,rockefeller university,USA
+"stein, w",1972,Chemistry,rockefeller university,USA
+"moore, s",1972,Chemistry,Rockefeller University,USA
+"herzberg, g.",1971,Chemistry,Carleton University,Canada
+"herzberg, g.",1971,Chemistry,Carleton University,Canada
+"herzberg, g.",1971,Chemistry,Carleton University,Canada
+"herzberg, g.",1971,Chemistry,national research council,Canada
+"herzberg, g.",1971,Chemistry,Carleton University,Canada
+"leloir, l",1970,Chemistry,facultad de ciencias medicas,Other
+"barton, d",1969,Chemistry,Imperial College London,UK
+"hassel, o",1969,Chemistry,University of Oslo,Norway
+"onsager, l",1968,Chemistry,yale university,USA
+"norrish, r",1967,Chemistry,University of Cambridge,UK
+"porter, g",1967,Chemistry,National Institute for Medical Research,Other
+"eigen, m",1967,Chemistry,Max Planck Institute for Biophysical Chemistry,Germany
+"mulliken, r",1966,Chemistry,University of Chicago,USA
+"woodward, r",1965,Chemistry,harvard university,USA
+"woodward, r",1965,Chemistry,harvard university,USA
+"woodward, r",1965,Chemistry,Harvard University,USA
+"hodgkin, d",1964,Chemistry,university of oxford,UK
+"ziegler, k",1963,Chemistry,Goethe University Frankfurt,Germany
+"natta, g",1963,Chemistry,polytechnic university of milan,Italy
+"kendrew, j",1962,Chemistry,medical research council,Other
+"kendrew, j",1962,Chemistry,MRC Laboratory of Molecular Biology,UK
+"perutz, m",1962,Chemistry,University of Cambridge,UK
+"calvin, m",1961,Chemistry,University of Manchester,UK
+"calvin, m",1961,Chemistry,University of Manchester,UK
+"calvin, m",1961,Chemistry,University of Manchester,UK
+"libby, w",1960,Chemistry,"University of California, Berkeley",USA
+"heyrovsky, j",1959,Chemistry,Charles University,Czech Republic
+"heyrovsky, j",1959,Chemistry,Charles University,Czech Republic
+"sanger, f",1958,Chemistry,laboratory of molecular biology,UK
+"sanger, f",1958,Chemistry,laboratory of molecular biology,UK
+"sanger, f",1958,Chemistry,laboratory of molecular biology,UK
+"todd, a",1957,Chemistry,Lister Institute,Other
+"todd, a",1957,Chemistry,Lister Institute,Other
+"hinshelwood, c",1956,Chemistry,University of Oxford,UK
+"hinshelwood, c",1956,Chemistry,University of Oxford,UK
+"hinshelwood, c",1956,Chemistry,University of Oxford,UK
+n. n. semenov,1956,Chemistry,,Unknown
+"duvigneaud, v",1955,Chemistry,University of Edinburgh,UK
+"duvigneaud, v",1955,Chemistry,University of Edinburgh,UK
+"pauling, l",1954,Chemistry,California Institute of Technology,USA
+"staudinger, h",1953,Chemistry,University of Strasbourg,France
+"staudinger, h",1953,Chemistry,University of Strasbourg,France
+"staudinger, h",1953,Chemistry,University of Strasbourg,France
+"synge, r",1952,Chemistry,Winchester College,UK
+"martin, a",1952,Chemistry,University of Sussex,UK
+"seaborg, g",1951,Chemistry,university of california berkeley,USA
+"mcmillan, e",1951,Chemistry,university of california berkeley,USA
+"alder, k",1950,Chemistry,massachusetts institute of technology,USA
+"diels, o",1950,Chemistry,heidelberg university,Germany
+"giauque, w",1949,Chemistry,"University of California, Berkeley",USA
+"tiselius, a",1948,Chemistry,University of Uppsala,Sweden
+"tiselius, a",1948,Chemistry,University of Uppsala,Sweden
+"tiselius, a",1948,Chemistry,University of Uppsala,Sweden
+"robinson, r",1947,Chemistry,University of Chicago,USA
+"stanley, w",1946,Chemistry,Rockefeller University,USA
+"stanley, w",1946,Chemistry,Rockefeller University,USA
+"northrop, j",1946,Chemistry,rockefeller university,USA
+"sumner, j",1946,Chemistry,cornell university,USA
+"virtanen, a",1945,Chemistry,Helsinki University of Technology,Finland
+"hahn, o",1944,Chemistry,University College London,UK
+"hevesy, g",1943,Chemistry,Ghent University,Belgium
+"ruzicka, l",1939,Chemistry,ETH Zurich,Switzerland
+"ruzicka, l",1939,Chemistry,ETH Zurich,Switzerland
+"ruzicka, l",1939,Chemistry,ETH Zurich,Switzerland
+"ruzicka, l",1939,Chemistry,ETH Zurich,Switzerland
+"butenandt, a",1939,Chemistry,Kaiser Wilhelm Institute,Other
+"butenandt, a",1939,Chemistry,Kaiser Wilhelm Institute,Other
+"butenandt, a",1939,Chemistry,Kaiser Wilhelm Institute,Other
+"butenandt, a",1939,Chemistry,Kaiser Wilhelm Institute,Other
+"butenandt, a",1939,Chemistry,Kaiser Wilhelm Institute,Other
+"kuhn, r",1938,Chemistry,max planck society,Germany
+"haworth, w",1937,Chemistry,university of birmingham,UK
+"haworth, w",1937,Chemistry,university of st andrews,Scotland
+"karrer, p",1937,Chemistry,University of Zurich,Switzerland
+"debye, p",1936,Chemistry,cornell university,USA
+"joliot, f",1935,Chemistry,Curie Institute (Paris),France
+"curie, i",1935,Chemistry,Curie Institute (Paris),France
+"urey, h",1934,Chemistry,university of california san diego,USA
+"langmuir, i",1932,Chemistry,general electric,USA
+"langmuir, i",1932,Chemistry,general electric,USA
+"langmuir, i",1932,Chemistry,general electric,USA
+"langmuir, i",1932,Chemistry,general electric,USA
+carl bosch,1931,Chemistry,BASF,Other
+carl bosch,1931,Chemistry,BASF,Other
+"fischer, h",1930,Chemistry,University of Washington,USA
+"harden, a",1929,Chemistry,lister institute of preventive medicine,Other
+"von euler, h",1929,Chemistry,University of Stockholm,Sweden
+"windaus, a",1928,Chemistry,,Unknown
+"windaus, a",1928,Chemistry,,Unknown
+"wieland, h",1927,Chemistry,Technical University of Munich,Germany
+"svedberg, t",1926,Chemistry,Uppsala University,Sweden
+"svedberg, t",1926,Chemistry,Uppsala University,Sweden
+"zsigmondy, r",1925,Chemistry,University of Vienna,Austria
+fritz pregl,1923,Chemistry,University of Graz,Austria
+"aston, f",1922,Chemistry,University of Cambridge,UK
+"soddy, f",1921,Chemistry,university of glasgow,UK
+"soddy, f",1921,Chemistry,university of glasgow,UK
+"soddy, f",1921,Chemistry,McGill University,Canada
+"nernst, w",1920,Chemistry,University of Gottingen,Germany
+"nernst, w",1920,Chemistry,University of Gottingen,Germany
+"haber, f",1918,Chemistry,ETH Zurich,Switzerland
+"willstatter, r",1915,Chemistry,University of Munich,Germany
+"willstatter, r",1915,Chemistry,University of Munich,Germany
+"richards, t",1914,Chemistry,harvard university,USA
+"richards, t",1914,Chemistry,harvard university,USA
+"richards, t",1914,Chemistry,harvard university,USA
+victor grignard,1912,Chemistry,University of Nancy,Other
+"rutherford, e",1908,Chemistry,McGill University,Canada
+"ohsumi, y",2016,Medicine,tokyo institute of technology,Japan
+"ohsumi, y",2016,Medicine,tokyo institute of technology,Japan
+youyou tu,2015,Medicine,Traditional Chinese Medicine,Other
+"omura, s",2015,Medicine,Kitasato University,Japan
+"campbell, wc",2015,Medicine,Drew University,USA
+"moser, ei",2014,Medicine,norwegian university of science and technology,Norway
+"okeefe, j",2014,Medicine,university college london,UK
+"moser, mb",2014,Medicine,Norwegian University of Science and Technology,Norway
+"sudhof, tc",2013,Medicine,stanford university,USA
+"sudhof, tc",2013,Medicine,stanford university,USA
+"sudhof, tc",2013,Medicine,stanford university,USA
+"sudhof, tc",2013,Medicine,stanford university,USA
+"schekman, r",2013,Medicine,"University of California, Berkeley",USA
+"schekman, r",2013,Medicine,"University of California, Berkeley",USA
+"rothman, je",2013,Medicine,yale university,USA
+"rothman, je",2013,Medicine,yale university,USA
+"rothman, je",2013,Medicine,yale university,USA
+"rothman, je",2013,Medicine,yale university,USA
+"yamanaka, s",2012,Medicine,kyoto university,Japan
+"yamanaka, s",2012,Medicine,kyoto university,Japan
+"gurdon, jb",2012,Medicine,university of cambridge,UK
+"gurdon, jb",2012,Medicine,university of cambridge,UK
+"steinman, rm",2011,Medicine,rockefeller university,USA
+"hoffmann, ja",2011,Medicine,centre national de la recherche scientifique,France
+"hoffmann, ja",2011,Medicine,centre national de la recherche scientifique,France
+"beutler, b",2011,Medicine,University of Texas at Dallas,USA
+"edwards, rg",2010,Medicine,university of cambridge,UK
+"szostak, jw",2009,Medicine,harvard university,USA
+"greider, cw",2009,Medicine,johns hopkins university,USA
+"blackburn, eh",2009,Medicine,university of california san francisco,USA
+"blackburn, eh",2009,Medicine,university of california san francisco,USA
+"barresinoussi, f",2008,Medicine,pasteur institute,France
+"hausen, hz",2008,Medicine,german cancer research center,Germany
+"montagnier, l",2008,Medicine,pasteur institute,France
+"evans, mj",2007,Medicine,University College London,UK
+"capecchi, mr",2007,Medicine,university of utah,USA
+"capecchi, mr",2007,Medicine,university of utah,USA
+"smithies, o",2007,Medicine,university of north carolina at chapel hill,USA
+"smithies, o",2007,Medicine,university of wisconsin madison,USA
+"mello, cc",2006,Medicine,university of massachusetts medical school,USA
+"fire, a",2006,Medicine,Johns Hopkins University,USA
+"warren, jr",2005,Medicine,Royal Perth Hospital,Other
+"marshall, bj",2005,Medicine,University of Western Australia,Austria
+"buck, l",2004,Medicine,fred hutchinson cancer research center,Other
+"axel, r",2004,Medicine,howard hughes medical institute,USA
+"mansfield, p",2003,Medicine,university of nottingham,UK
+"lauterbur, pc",2003,Medicine,Stony Brook University,USA
+"horvitz, hr",2002,Medicine,massachusetts institute of technology,USA
+"brenner, s",2002,Medicine,agency for science technology and research,Other
+"sulston, je",2002,Medicine,wellcome trust,Other
+"nurse, p",2001,Medicine,Royal Society,Other
+"nurse, p",2001,Medicine,Royal Society,Other
+"hunt, t",2001,Medicine,marine biological laboratory,USA
+"hartwell, lh",2001,Medicine,fred hutchinson cancer research center,Other
+"kandel, er",2000,Medicine,columbia university,USA
+greengar.p,2000,Medicine,rockefeller university,USA
+"carlsson, a",2000,Medicine,university of gothenburg,Sweden
+"carlsson, a",2000,Medicine,lund university,Sweden
+"carlsson, a",2000,Medicine,lund university,Sweden
+"blobel, g",1999,Medicine,howard hughes medical institute,USA
+"murad, f",1998,Medicine,university of texas health science center at houston,USA
+"murad, f",1998,Medicine,University of Virginia,USA
+"furchgott, rf",1998,Medicine,Cornell University,USA
+"furchgott, rf",1998,Medicine,suny downstate medical center,USA
+"furchgott, rf",1998,Medicine,suny downstate medical center,USA
+"ignarro, lj",1998,Medicine,university of california los angeles,USA
+"ignarro, lj",1998,Medicine,university of california los angeles,USA
+"prusiner, sb",1997,Medicine,university of california san francisco,USA
+zinkerna.rm,1996,Medicine,university of zurich,Switzerland
+zinkerna.rm,1996,Medicine,university of zurich,Switzerland
+"doherty, pc",1996,Medicine,university of melbourne,Austria
+"doherty, pc",1996,Medicine,university of melbourne,Austria
+"nussleinvolhard, c",1995,Medicine,max planck society,Germany
+"wieschaus, e",1995,Medicine,Princeton University,USA
+"lewis, eb",1995,Medicine,california institute of technology,USA
+"rodbell, m",1994,Medicine,National Institute of Health,USA
+"rodbell, m",1994,Medicine,national institutes of health,USA
+"rodbell, m",1994,Medicine,national institutes of health,USA
+"rodbell, m",1994,Medicine,national institutes of health,USA
+"rodbell, m",1994,Medicine,national institutes of health,USA
+"rodbell, m",1994,Medicine,national institutes of health,USA
+"gilman, ag",1994,Medicine,Case Western Reserve University,Other
+"sharp, pa",1993,Medicine,massachusetts institute of technology,USA
+"roberts, rj",1993,Medicine,new england biolabs,Other
+"fischer, eh",1992,Medicine,University of Washington,USA
+"fischer, eh",1992,Medicine,university of washington,USA
+"krebs, eg",1992,Medicine,university of washington,USA
+"sakmann, b",1991,Medicine,max planck society,Germany
+"neher, e",1991,Medicine,max planck society,Germany
+thomas ed,1990,Medicine,columbia university,USA
+"murray, je",1990,Medicine,Harvard University,USA
+"varmus, he",1989,Medicine,national institutes of health,USA
+"bishop, jm",1989,Medicine,"University of California, San Francisco",USA
+"black, jw",1988,Medicine,University of Malaya,Malaysia
+"black, jw",1988,Medicine,imperial chemical industries,Other
+"hitchings, gh",1988,Medicine,kettering university,USA
+"hitchings, gh",1988,Medicine,kettering university,USA
+"elion, gb",1988,Medicine,duke university,USA
+"elion, gb",1988,Medicine,duke university,USA
+"tonegawa, s",1987,Medicine,picower institute for learning and memory,Other
+"cohen, s",1986,Medicine,Vanderbilt University,USA
+"cohen, s",1986,Medicine,Vanderbilt University,USA
+"levimontalcini, r",1986,Medicine,washington university in st louis,USA
+"brown, ms",1985,Medicine,university of texas southwestern medical center,USA
+"brown, ms",1985,Medicine,university of texas southwestern medical center,USA
+"goldstein, jl",1985,Medicine,university of texas southwestern medical center,USA
+"milstein, c",1984,Medicine,laboratory of molecular biology,UK
+"kohler, g",1984,Medicine,Max Planck Institute of Immunobiology and Epigenetics,Germany
+"jerne, nk",1984,Medicine,basel institute for immunology,Switzerland
+"jerne, nk",1984,Medicine,basel institute for immunology,Switzerland
+"mcclintock, b",1983,Medicine,carnegie institution for science,USA
+"mcclintock, b",1983,Medicine,carnegie institution for science,USA
+"mcclintock, b",1983,Medicine,carnegie institution for science,USA
+"mcclintock, b",1983,Medicine,carnegie institution for science,USA
+"mcclintock, b",1983,Medicine,carnegie institution for science,USA
+samuelss.b,1982,Medicine,Lund University,Sweden
+samuelss.b,1982,Medicine,Lund University,Sweden
+samuelss.b,1982,Medicine,Lund University,Sweden
+samuelss.b,1982,Medicine,Lund University,Sweden
+samuelss.b,1982,Medicine,Lund University,Sweden
+samuelss.b,1982,Medicine,Lund University,Sweden
+"vane, jr",1982,Medicine,st bartholomew s hospital,Other
+"vane, jr",1982,Medicine,University of London,UK
+"bergstrom, s",1982,Medicine,Columbia University,USA
+"bergstrom, s",1982,Medicine,Columbia University,USA
+"hubel, dh",1981,Medicine,harvard university,USA
+"hubel, dh",1981,Medicine,harvard university,USA
+"hubel, dh",1981,Medicine,harvard university,USA
+"hubel, dh",1981,Medicine,harvard university,USA
+"hubel, dh",1981,Medicine,harvard university,USA
+"sperry, rw",1981,Medicine,california institute of technology,USA
+"wiesel, tn",1981,Medicine,rockefeller university,USA
+"wiesel, tn",1981,Medicine,rockefeller university,USA
+"wiesel, tn",1981,Medicine,rockefeller university,USA
+"wiesel, tn",1981,Medicine,rockefeller university,USA
+"wiesel, tn",1981,Medicine,harvard university,USA
+"snell, gd",1980,Medicine,Jackson Laboratory,Other
+"dausset, j",1980,Medicine,french institute of health and medical research,UK
+"dausset, j",1980,Medicine,french institute of health and medical research,UK
+"dausset, j",1980,Medicine,Free French Forces,UK
+benacerr.b,1980,Medicine,harvard university,USA
+benacerr.b,1980,Medicine,harvard university,USA
+benacerr.b,1980,Medicine,harvard university,USA
+benacerr.b,1980,Medicine,harvard university,USA
+benacerr.b,1980,Medicine,harvard university,USA
+"hounsfield, gn",1979,Medicine,,Unknown
+"cormack, am",1979,Medicine,tufts university,USA
+"nathans, d",1978,Medicine,johns hopkins university,USA
+"arber, w",1978,Medicine,university of geneva,Switzerland
+"smith, ho",1978,Medicine,j craig venter institute,Other
+"smith, ho",1978,Medicine,j craig venter institute,Other
+"schally, av",1977,Medicine,tulane university,USA
+"schally, av",1977,Medicine,tulane university,USA
+"schally, av",1977,Medicine,tulane university,USA
+guillemi.r,1977,Medicine,Baylor University,USA
+"yalow, rs",1977,Medicine,united states department of veterans affairs,USA
+"yalow, rs",1977,Medicine,united states department of veterans affairs,USA
+"yalow, rs",1977,Medicine,united states department of veterans affairs,USA
+"yalow, rs",1977,Medicine,united states department of veterans affairs,USA
+"gajdusek, dc",1976,Medicine,national institutes of health,USA
+"blumberg, bs",1976,Medicine,Columbia Presbyterian Medical Center,USA
+baltimor.d,1975,Medicine,albert einstein college of medicine,Other
+"temin, hm",1975,Medicine,university of wisconsin madison,USA
+"dulbecco, r",1975,Medicine,salk institute for biological studies,USA
+"duve, cd",1974,Medicine,catholic university of leuven,Belgium
+"duve, cd",1974,Medicine,catholic university of leuven,Belgium
+"duve, cd",1974,Medicine,catholic university of leuven,Belgium
+"palade, ge",1974,Medicine,rockefeller university,USA
+"palade, ge",1974,Medicine,rockefeller university,USA
+"claude, a",1974,Medicine,rockefeller university,USA
+"claude, a",1974,Medicine,rockefeller university,USA
+"claude, a",1974,Medicine,rockefeller university,USA
+"claude, a",1974,Medicine,Rockefeller University,USA
+karl von frisch,1973,Medicine,Rostock University,Other
+"lorenz, k",1973,Medicine,max planck society,Germany
+"lorenz, k",1973,Medicine,max planck society,Germany
+"lorenz, k",1973,Medicine,max planck society,Germany
+"edelman, gm",1972,Medicine,Ursinus College,Other
+"porter, rr",1972,Medicine,national institute for medical research,France
+"sutherland, ew",1971,Medicine,vanderbilt university,USA
+"sutherland, ew",1971,Medicine,vanderbilt university,USA
+"sutherland, ew",1971,Medicine,vanderbilt university,USA
+"sutherland, ew",1971,Medicine,vanderbilt university,USA
+von euler us,1970,Medicine,Karolinska Institutet,Sweden
+"axelrod, j",1970,Medicine,national institutes of health,USA
+"axelrod, j",1970,Medicine,national institutes of health,USA
+"katz, b",1970,Medicine,university college london,UK
+"katz, b",1970,Medicine,university college london,UK
+"katz, b",1970,Medicine,University College London,UK
+"katz, b",1970,Medicine,University College London,UK
+"katz, b",1970,Medicine,university college london,UK
+"luria, se",1969,Medicine,Columbia University,USA
+"hershey, ad",1969,Medicine,Washington University in St. Louis,USA
+"delbruck, m",1969,Medicine,Kaiser Wilhelm Society,Other
+"nirenberg, m",1968,Medicine,national institutes of health,USA
+"nirenberg, m",1968,Medicine,national institutes of health,USA
+"khorana, hg",1968,Medicine,Massachusetts Institute of Technology,USA
+"khorana, hg",1968,Medicine,Massachusetts Institute of Technology,USA
+"khorana, hg",1968,Medicine,Massachusetts Institute of Technology,USA
+"khorana, hg",1968,Medicine,Massachusetts Institute of Technology,USA
+"khorana, hg",1968,Medicine,Massachusetts Institute of Technology,USA
+"holley, rw",1968,Medicine,united states department of agriculture,USA
+"granit, r",1967,Medicine,Karolinska Institutet,Sweden
+"granit, r",1967,Medicine,Karolinska Institutet,Sweden
+"granit, r",1967,Medicine,Karolinska Institutet,Sweden
+"granit, r",1967,Medicine,Karolinska Institutet,Sweden
+"granit, r",1967,Medicine,Karolinska Institutet,Sweden
+"hartline, hk",1967,Medicine,rockefeller university,USA
+"wald, g",1967,Medicine,Harvard University,USA
+"wald, g",1967,Medicine,Harvard University,USA
+"wald, g",1967,Medicine,Harvard University,USA
+"wald, g",1967,Medicine,Harvard University,USA
+"huggins, c",1966,Medicine,University of Michigan,USA
+"rous, p",1966,Medicine,rockefeller university,USA
+"rous, p",1966,Medicine,rockefeller university,USA
+"monod, j",1965,Medicine,Pasteur Institute,France
+"lwoff, a",1965,Medicine,University of Cambridge,UK
+"jacob, f",1965,Medicine,college de france,France
+"jacob, f",1965,Medicine,college de france,France
+"jacob, f",1965,Medicine,college de france,France
+"jacob, f",1965,Medicine,college de france,France
+"lynen, f",1964,Medicine,University of Munich,Germany
+"bloch, k",1964,Medicine,University of Chicago,USA
+"eccles, jc",1963,Medicine,Australian National University,Austria
+"eccles, jc",1963,Medicine,Australian National University,Austria
+"hodgkin, al",1963,Medicine,university of cambridge,UK
+"huxley, af",1963,Medicine,university of cambridge,UK
+"wilkins, mhf",1962,Medicine,King's College London,UK
+"watson, jd",1962,Medicine,cold spring harbor laboratory,USA
+"watson, jd",1962,Medicine,cold spring harbor laboratory,USA
+"watson, jd",1962,Medicine,cold spring harbor laboratory,USA
+"crick, fhc",1962,Medicine,Cavendish Laboratory,UK
+"crick, fhc",1962,Medicine,Cavendish Laboratory,UK
+"crick, fhc",1962,Medicine,Cavendish Laboratory,UK
+"vonbekesy, g",1961,Medicine,University of Bern,Switzerland
+"vonbekesy, g",1961,Medicine,University of Bern,Switzerland
+"medawar, pb",1960,Medicine,University of Birmingham,UK
+"burnet, fm",1960,Medicine,walter and eliza hall institute of medical research,Australia
+"kornberg, a",1959,Medicine,stanford university,USA
+"ochoa, s",1959,Medicine,New York University Grossman School of Medicine,USA
+"ochoa, s",1959,Medicine,New York University Grossman School of Medicine,USA
+"lederberg, j",1958,Medicine,rockefeller university,USA
+"beadle, gw",1958,Medicine,california institute of technology,USA
+"tatum, el",1958,Medicine,rockefeller university,USA
+"bovet, d",1957,Medicine,,Unknown
+"richards, dw",1956,Medicine,columbia university,USA
+"richards, dw",1956,Medicine,columbia university,USA
+"richards, dw",1956,Medicine,columbia university,USA
+"cournand, a",1956,Medicine,Columbia University,USA
+"cournand, a",1956,Medicine,Columbia University,USA
+"cournand, a",1956,Medicine,Columbia University,USA
+"theorell, h",1955,Medicine,,Unknown
+"robbins, fc",1954,Medicine,case western reserve university,Other
+"weller, th",1954,Medicine,harvard university,USA
+"enders, jf",1954,Medicine,harvard university,USA
+"lipmann, f",1953,Medicine,Max Planck Institute for Medical Research,Germany
+"krebs, ha",1953,Medicine,medical research council,Other
+"waksman, sa",1952,Medicine,rutgers university,USA
+"waksman, sa",1952,Medicine,rutgers university,USA
+"waksman, sa",1952,Medicine,rutgers university,USA
+"theiler, m",1951,Medicine,University of Cape Town,South Africa
+"kendall, ec",1950,Medicine,university of rochester,USA
+"kendall, ec",1950,Medicine,university of rochester,USA
+"reichstein, t",1950,Medicine,,Unknown
+"reichstein, t",1950,Medicine,,Unknown
+"hench, ps",1950,Medicine,mayo clinic,Other
+"hess, wr",1949,Medicine,University of Zurich,Switzerland
+"moniz, e",1949,Medicine,University of Coimbra,Portugal
+"muller, p",1948,Medicine,IBM Research,USA
+"cori, gt",1947,Medicine,washington university in st louis,USA
+"houssay, ba",1947,Medicine,instituto de biologia y medicina experimental,Other
+"houssay, ba",1947,Medicine,instituto de biologia y medicina experimental,Other
+"cori, cf",1947,Medicine,harvard university,USA
+"muller, hj",1946,Medicine,indiana university,USA
+"muller, hj",1946,Medicine,indiana university,USA
+"chain, e",1945,Medicine,Imperial College London,UK
+"chain, e",1945,Medicine,Imperial College London,UK
+"chain, e",1945,Medicine,Imperial College London,UK
+"fleming, a",1945,Medicine,"St Mary's Hospital, London",UK
+"florey, hw",1945,Medicine,university of oxford,UK
+"erlanger, j",1944,Medicine,washington university in st louis,USA
+"erlanger, j",1944,Medicine,washington university in st louis,USA
+"erlanger, j",1944,Medicine,washington university in st louis,USA
+"erlanger, j",1944,Medicine,washington university in st louis,USA
+"erlanger, j",1944,Medicine,washington university in st louis,USA
+"gasser, hs",1944,Medicine,university college london,UK
+"gasser, hs",1944,Medicine,university college london,UK
+"gasser, hs",1944,Medicine,university college london,UK
+"gasser, hs",1944,Medicine,university college london,UK
+"gasser, hs",1944,Medicine,university college london,UK
+"doisy, ea",1943,Medicine,washington university in st louis,USA
+"doisy, ea",1943,Medicine,washington university in st louis,USA
+"dam, h",1943,Medicine,University of Copenhagen,Denmark
+"dam, h",1943,Medicine,University of Copenhagen,Denmark
+"domagk, g",1939,Medicine,University of Kiel,Germany
+"domagk, g",1939,Medicine,University of Kiel,Germany
+"heymans, c",1938,Medicine,Ghent University,Belgium
+"gyorgyi, as",1937,Medicine,University of Szeged,Hungary
+"dale, hh",1936,Medicine,University of Cambridge,UK
+"loewi, o",1936,Medicine,University of Vienna,Austria
+"spemann, h",1935,Medicine,,Unknown
+"minot, gr",1934,Medicine,lancaster university,UK
+"minot, gr",1934,Medicine,lancaster university,UK
+"whipple, gh",1934,Medicine,University of Rochester,USA
+"murphy, wp",1934,Medicine,university of minnesota,USA
+"murphy, wp",1934,Medicine,university of minnesota,USA
+"morgan, th",1933,Medicine,california institute of technology,USA
+"adrian, ed",1932,Medicine,University of Cambridge,UK
+"adrian, ed",1932,Medicine,University of Cambridge,UK
+"warburg, o",1931,Medicine,Kaiser Wilhelm Institute for Biology,Other
+"warburg, o",1931,Medicine,Kaiser Wilhelm Institute for Biology,Other
+"hopkins, fg",1929,Medicine,guy s hospital,Other
+"nicolle, c",1928,Medicine,Pasteur Institute of Tunis,France
+"nicolle, c",1928,Medicine,Pasteur Institute of Tunis,France
+"einthoven, w",1924,Medicine,Leiden University,Netherlands
+"macleod, jjr",1923,Medicine,University of Toronto,Canada
+"banting, fg",1923,Medicine,University of Western Ontario,Canada
+"banting, fg",1923,Medicine,University of Western Ontario,Canada
+"meyerhof, o",1922,Medicine,University of Kiel,Germany
+"hill, av",1922,Medicine,University of Cambridge,UK
+"hill, av",1922,Medicine,University of Cambridge,UK
+"krogh, a",1920,Medicine,University of Copenhagen,Denmark
+"krogh, a",1920,Medicine,University of Copenhagen,Denmark
+"krogh, a",1920,Medicine,University of Copenhagen,Denmark
+"krogh, a",1920,Medicine,University of Copenhagen,Denmark
+charles robert richet,1913,Medicine,University of Paris,France
+charles robert richet,1913,Medicine,University of Paris,France
+charles robert richet,1913,Medicine,University of Paris,France
+"carrel, a",1912,Medicine,rockefeller university,USA
+"carrel, a",1912,Medicine,rockefeller university,USA
+"carrel, a",1912,Medicine,rockefeller university,USA
+"carrel, a",1912,Medicine,rockefeller university,USA

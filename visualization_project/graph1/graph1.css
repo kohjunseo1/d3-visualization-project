@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.chart-container {
+  margin-bottom: 50px;
+}
+
+.tooltip1 {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 6px;
+  pointer-events: none;
+  font-size: 12px;
+}
