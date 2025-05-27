@@ -29,7 +29,7 @@
 
     const nodeColorScale = d3.scaleLinear()
         .domain(d3.extent(graph.nodes, d => d.totalWeight))
-        .range(["#fff9c4", "#fbc02d"]);
+        .range(["#bbbefb", "#0d47a1"]);
 
     const linkColorScale = d3.scaleLinear()
         .domain(d3.extent(graph.links, d => d.value))
