@@ -57,6 +57,7 @@ td.heat {
 .heat-4 { background-color: #3182bd; }
 .heat-5 { background-color: #08519c; }
 
+
 /* 지도 path hover 강조 */
 #choropleth-map path:hover {
   stroke-width: 2;

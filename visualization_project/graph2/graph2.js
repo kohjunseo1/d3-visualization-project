@@ -55,7 +55,7 @@
     .attr("fill", "black")
     .text("Number of Papers");
 
-  d3.csv("visualization_project/data/Prizewinningpapers.csv").then(data => {
+  d3.csv("data/prize_winning_papers.csv").then(data => {
     data.forEach(d => {
       d["Pub year"] = +d["Pub year"];
       d["Prize year"] = +d["Prize year"];
@@ -153,6 +153,19 @@
         `);
       });
 
+    const minYear = d3.min(allData, d => Math.min(d["Pub year"], d["Prize year"]));
+    const maxYear = d3.max(allData, d => Math.max(d["Pub year"], d["Prize year"]));
+
+    svg.append("line")
+      .attr("x1", xScale(minYear))
+      .attr("y1", yScale(minYear))
+      .attr("x2", xScale(maxYear))
+      .attr("y2", yScale(maxYear))
+      .attr("stroke", "black")
+      .attr("stroke-dasharray", "4")
+      .attr("stroke-width", 3)
+      .attr("opacity", 0.7);
+
     const legendData = colorScale.domain();
     d3.select("#legend2").selectAll("*").remove();
 
@@ -218,7 +231,48 @@
       .attr("y", histHeight)
       .attr("height", 0)
       .remove();
-  }
+
+      // 평균 ΔT 계산
+    const meanDeltaT = d3.mean(deltaTs);
+
+    // 평균선 그리기 (수평 막대 위에 세로선)
+    const meanLine = histSvg.selectAll(".mean-line")
+      .data([meanDeltaT]);
+
+    meanLine.enter()
+      .append("line")
+      .attr("class", "mean-line")
+      .merge(meanLine)
+      .transition()
+      .duration(500)
+      .attr("x1", d => xHistScale(d))
+      .attr("x2", d => xHistScale(d))
+      .attr("y1", 0)
+      .attr("y2", histHeight)
+      .attr("stroke", "black")
+      .attr("stroke-width", 2)
+      .attr("stroke-dasharray", "4 2"); // 점선 스타일
+
+    meanLine.exit().remove();
+
+    const meanText = histSvg.selectAll(".mean-text")
+      .data([meanDeltaT]);
+
+    meanText.enter()
+      .append("text")
+      .attr("class", "mean-text")
+      .merge(meanText)
+      .transition()
+      .duration(500)
+      .attr("x", d => xHistScale(d) + 5)  // 선 오른쪽 약간 띄워서
+      .attr("y", 20)  // 위쪽에 위치
+      .text(d => `平均ΔT: ${d.toFixed(2)} 年`)  // 소수점 2자리까지 표시
+      .attr("fill", "black")
+      .style("font-size", "12px")
+      .style("font-weight", "bold");
+
+    meanText.exit().remove();
+}
 
   let animationTimer = null;
 

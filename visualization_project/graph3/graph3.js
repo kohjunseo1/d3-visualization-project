@@ -15,9 +15,9 @@
 
     // 카테고리별 데이터 파일 맵핑
     const categoryToFile = {
-    "Physics": "visualization_project/data/Ph_subfield1.csv",
-    "Chemistry": "visualization_project/data/Ch_subfield1.csv",
-    "Medicine": "visualization_project/data/Me_subfield1.csv"
+    "Physics": "data/Ph_subfield1.csv",
+    "Chemistry": "data/Ch_subfield1.csv",
+    "Medicine": "data/Me_subfield1.csv"
     };
 
     // 갈색계열 (트리맵 고정)

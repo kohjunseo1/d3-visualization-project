@@ -12,10 +12,10 @@
     let prevWordsText = [];
 
     const fieldToFile = {
-    all: "visualization_project/data/yearly_keywords_all.json",
-    chem: "visualization_project/data/yearly_keywords_chem.json",
-    phys: "visualization_project/data/yearly_keywords_phys.json",
-    med: "visualization_project/data/yearly_keywords_med.json"
+    all: "data/yearly_keywords_all.json",
+    chem: "data/yearly_keywords_chem.json",
+    phys: "data/yearly_keywords_phys.json",
+    med: "data/yearly_keywords_med.json"
     };
 
     let currentField = "all";

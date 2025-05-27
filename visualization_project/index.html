@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>诺贝尔奖可视化仪表板 (Nobel Prize Visualization Dashboard)</title>
+
+  <!-- D3.js 및 관련 라이브러리 -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
+
+  <!-- 공통 스타일 -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- 그래프별 스타일 -->
+  <link rel="stylesheet" href="graph1/graph1.css" />
+  <link rel="stylesheet" href="graph2/graph2.css" />
+  <link rel="stylesheet" href="graph3/graph3.css" />
+  <link rel="stylesheet" href="graph4/graph4.css" />
+  <link rel="stylesheet" href="graph5/graph5.css" />
+  <link rel="stylesheet" href="graph6/graph6.css" />
+  <link rel="stylesheet" href="graph7/graph7.css" />
+
+  <style>
+
+
+    /* 소개 섹션 스타일 */
+    .intro-section {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #f5f5f5; /* 연한 회색 */
+    }
+    .intro-section h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .intro-section h3 {
+      font-size: 24px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .intro-section p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+    .intro-button {
+      display: inline-block;
+      padding: 12px 30px;
+      font-size: 18px;
+      background-color: #0066cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .intro-button:hover {
+      background-color: #004999;
+    }
+
+  
+    /* hr 간격 유지 */
+    hr {
+      margin: 40px 0;
+      border: none;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔶 소개 섹션 -->
+  <section class="intro-section">
+    <h1>诺贝尔奖可视化仪表板</h1>
+    <h3>一场关于科学、时间与认知的可视化探索</h3>
+    <p>
+      本项目通过对1901年以来诺贝尔科学奖（物理、化学、生理）得主的研究轨迹进行系统分析，尝试从数据可视化的角度揭示隐藏在奖项背后的知识结构与科学节奏。
+      诺贝尔奖不仅仅是对个体成就的表彰，更是一部浓缩的现代科学史。
+    </p>
+    <p>
+      我们结合获奖者完整的论文发表记录，以 D3.js 等可视化工具，探讨这些核心问题：
+    </p>
+    <p>
+      📌 科学家的“高光时刻”出现在哪些时间段？<br/>
+      📌 “迟来的认可”现象有多普遍？<br/>
+      📌 学科知识如何在时间中演化？<br/>
+      📌 哪些国家与机构在诺奖中脱颖而出？
+    </p>
+    <p>
+      页面结构包括：时间节奏、知识结构、关键词网络、国家机构分布、词语演化等多个部分。请点击下方按钮或向下滚动开始探索。
+    </p>
+    <button class="intro-button" onclick="window.scrollTo({ top: document.getElementById('graph1-section').offsetTop, behavior: 'smooth' })">开始探索 ▶</button>
+  </section>
+
+
+<section>
+  <h2>第一部分：时间 - 时间的节奏与延迟</h2>
+  <p>科学的发展并非线性，时间蕴含着贡献与认可之间的延迟与节奏。</p>
+</section>
+  <!-- 🔷 그래프 1 -->
+  <section id="graph1-section" class="chart-container">
+    <h2>① 每年获奖相关论文数量均值 (Average Number of Papers per Year Relative to Nobel Prize)</h2>
+    <p class="graph-description">
+      本图展示诺贝尔奖得主在其科研生涯中，每年发表的论文数量变化趋势。<br/>
+      通过聚焦得奖前后若干年的平均论文数，我们可以观察这些科学家的“高光时刻”通常出现在哪些时期。
+    </p>
+    <svg id="chart1" width="900" height="600"></svg>
+  </section>
+
+  <hr />
+
+  <!-- 🔷 그래프 2 -->
+  <section id="graph1-section">
+    <h2>② 得奖论文发表年份 vs 获奖年份 (Publication Year vs Prize Year - Award-Winning Papers)</h2>
+    <p class="graph-description">
+      该图将每篇得奖论文的发表时间与对应获奖时间相连，揭示“迟来的认可”这一现象的普遍性。<br/>
+      我们可以通过ΔT（获奖时间 - 发表时间）的分布，理解科研成果被认可的时间延迟。
+    </p>
+    <div id="controls2">
+      <label for="fieldSelect">选择领域 (Select Field):</label>
+      <select id="fieldSelect">
+        <option value="All">所有领域 (All)</option>
+        <option value="Physics">物理 (Physics)</option>
+        <option value="Chemistry">化学 (Chemistry)</option>
+        <option value="Medicine">医学 (Medicine)</option>
+      </select>
+    </div>
+    <div id="chart-container" style="display:flex; gap:20px;">
+      <div id="chart2" style="flex:3; min-width:600px; height:600px;"></div>
+      <div id="details-panel" style="flex:1; border:1px solid #ccc; padding:10px;">
+        <h3>详细信息</h3>
+        <p>点击论文的详细信息将显示在此处。</p>
+      </div>
+    </div>
+    <div id="legend2"></div>
+    <div id="histogram-section" style="margin-top:40px;">
+      <h3>ΔT 直方图 (Histogram)</h3>
+      <label for="yearSlider">获奖年份筛选 (Prize Year Filter):</label>
+      <input type="range" id="yearSlider" min="1900" max="2020" step="1" value="2020" />
+      <span id="sliderValue">2020</span>
+      <button id="playPauseBtn">▶️ 播放 (Play)</button>
+      <div id="histogram" style="height:300px; margin-top:20px;"></div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section>
+  <h2>第二部分：结构 - 知识的结构与关联</h2>
+  <p>科学是一张不断扩展和重组的知识网络，既分化又相互连接。</p>
+</section>
+
+  <!-- 🔷 그래프 3 -->
+  <section id="graph2-section">
+    <h2>③ 各领域子方向年度趋势 (Yearly Subfield Trends Across Categories)</h2>
+    <p class="graph-description">
+      该图通过层级图（树图 + 旭日图）展示各大类（物理、化学、医学）下的子领域在各年份的分布情况，<br/>
+      帮助我们观察科学知识如何在时间中演化，哪些方向在特定时期兴起或衰退。
+    </p>
+    <label for="category-select">选择大类 (Select Category):</label>
+    <select id="category-select"></select>
+    <label for="year-select">选择年份 (Select Year):</label>
+    <select id="year-select"></select>
+    <div id="visualizations" style="display:flex; gap:20px; margin-top:20px;">
+      <div id="treemap" style="flex:1;"></div>
+      <div id="right-panel" style="flex:1;">
+        <div id="sunburst"></div>
+        <div id="legend3"></div>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- 🔷 그래프 4 -->
+  <section id="graph2-section">
+    <h2>④ 共现关键词网络图 (Co-occurring Keyword Network)</h2>
+ <p class="graph-description">
+    通过关键词共现网络，我们可以识别出哪些科学术语经常一起出现，从而勾勒出某一时期科学研究的核心话题和知识结构。<br/>
+    图中节点代表关键词，连线代表共现关系。
+  </p>
+    <label for="linkThreshold">最小共现次数 (Link Threshold): </label>
+    <input type="range" id="linkThreshold" min="1" max="10" value="3" step="1">
+    <span id="thresholdValue">3</span>
+    <div style="margin-top: 10px; margin-bottom: 20px;">
+      <input type="text" id="keywordInput" placeholder="关键词搜索..." />
+      <button id="searchBtn">搜索</button>
+      <button id="resetBtn">重置</button>
+    </div>
+    <svg class="network-graph"></svg>
+    <div class="tooltip4"></div>
+  </section>
+
+  <hr />
+
+    <section>
+  <h2>第三部分：空间 - 知识的地理分布</h2>
+  <p>知识的地理分布呈现出高度集聚的态势，科学活动与空间密切相关。</p>
+</section>
+
+  <!-- 🔷 그래프 5 -->
+  <section id="graph3-section">
+    <h2>⑤ 国家/机构获奖趋势竞赛图 (Country/Institution Award Trends)</h2>
+ <p class="graph-description">
+    该图以动态柱状图方式展示各国或机构在不同年份中所获得诺贝尔奖的数量，<br/>
+    可用于观察哪些国家或研究机构在不同时间段中持续或集中地产出重要科研成果。
+  </p>    
+<div style="text-align: center; margin-top: 20px;">
+      <label for="yearRange">选择年份范围 (Year Range): </label>
+      <input type="range" id="yearRange" min="1900" max="2020" value="2020" step="1" />
+      <span id="yearValue">2020</span>
+    </div>
+    <div class="mode-toggle">
+      <label><input type="radio" name="mode" value="cumulative" checked /> 累计模式 (Cumulative)</label>
+      <label><input type="radio" name="mode" value="yearly" /> 年度模式 (Yearly)</label>
+    </div>
+    <div class="filter-box" id="countryFilterBox"></div>
+    <div id="award-trend-chart"></div>
+    <div id="tooltip" style="position:absolute; background:#fff; padding:8px 12px; border:1px solid #ccc; border-radius:5px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2); display:none; font-size:14px;"></div>
+  </section>
+
+  <hr />
+
+  <!-- 🔷 그래프 6 -->
+  <section id="graph3-section">
+    <h2>⑥ 获奖集中度 (Nobel Prize Winning Concentration)</h2>
+  <p class="graph-description">
+    通过世界地图形式的着色图，我们展示了诺贝尔奖在全球范围内的分布密度，<br/>
+    揭示科学研究的地理集中性，以及不同国家在诺奖上的参与度差异。
+  </p>
+    <div id="map-container">
+      <h3>各国诺贝尔奖获奖分布 (Country-wise Distribution)</h3>
+      <div id="tooltip6" class="hidden"></div>
+      <svg id="choropleth-map" width="960" height="600"></svg>
+      <div id="legend6" style="max-width: 300px; margin: 20px auto;"></div>
+    </div>
+
+    <div id="heatmap-container">
+      <h2>Top Institutions Heatmap</h2>
+      <div id="heatmap"></div>
+    </div>
+  </section>
+
+  <hr />
+
+      <section>
+  <h2>第四部分：语言 - 科学话语的演变</h2>
+  <p>科学用语言记录世界的变化，而语言也塑造了科学的边界。</p>
+</section>
+
+  <!-- 🔷 그래프 7 -->
+  <section id="graph4-section">
+    <h2>⑦ 按年份变化的词云图 (Dynamic Word Cloud by Year)</h2>
+ <p class="graph-description">
+    本词云图展示了不同年份中出现频率最高的科学关键词，<br/>
+    通过动态观察词云随年份的变化，可以把握科学语言和研究重点的历史演变轨迹。
+  </p>
+    <select id="field-select">
+      <option value="all">全部 (All)</option>
+      <option value="chem">化学 (Chemistry)</option>
+      <option value="phys">物理 (Physics)</option>
+      <option value="med">医学 (Medicine)</option>
+    </select>
+    <div id="slider-container">
+      <input type="range" id="year-slider" min="1826" max="2024" value="1826" step="1">
+      <span id="year-label">1826</span>
+    </div>
+    <button id="play-btn">▶ 播放 (Play)</button>
+    <div id="cloud"></div>
+  </section>
+
+  <hr />
+
+  <!-- 🔶 결론 섹션 -->
+  <section class="intro-section" style="background-color:#eef2f5;">
+    <h1>结语：科学奖项的另一种阅读方式</h1>
+    <p>
+      诺贝尔奖不只是个人荣耀的象征，更是一种文化现象和知识演化的缩影。
+      通过对奖项相关文献的分析，我们得以从时间的纵轴与知识的横轴上，重新理解现代科学的节奏与逻辑。
+    </p>
+    <p>
+      本可视化仪表板呈现了一种“第二阅读路径”：科学不仅靠天才与突破推动，更在一个庞大的知识生态系统中逐步演进。
+      时间滞后、学科交叉、国家差异与机构集中，构成了这部科学史的另一面。
+    </p>
+    <p>
+      最后，感谢您参与本次探索之旅。愿这份数据地图能激发你对科学传播、历史结构与知识系统的更多好奇。
+    </p>
+    <button class="intro-button" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">回到顶部 ⬆</button>
+  </section>
+
+  <!-- 🔸 자바스크립트 파일들 -->
+  <script src="graph1/graph1.js"></script>
+  <script src="graph2/graph2.js"></script>
+  <script src="graph3/graph3.js"></script>
+  <script src="graph4/graph4.js"></script>
+  <script src="graph5/graph5.js"></script>
+  <script src="graph6/graph6.js"></script>
+  <script src="graph7/graph7.js"></script>
+
+</body>
+</html>

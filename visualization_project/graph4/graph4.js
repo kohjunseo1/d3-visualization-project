@@ -17,7 +17,7 @@
     const searchBtn = d3.select("#searchBtn");
     const resetBtn = d3.select("#resetBtn");
 
-    d3.json("visualization_project/data/cooccurrence_network.json").then(function(graph) {
+    d3.json("data/cooccurrence_network.json").then(function(graph) {
     const totalLinkCounts = {};
     graph.links.forEach(l => {
         totalLinkCounts[l.source] = (totalLinkCounts[l.source] || 0) + l.value;
@@ -29,7 +29,7 @@
 
     const nodeColorScale = d3.scaleLinear()
         .domain(d3.extent(graph.nodes, d => d.totalWeight))
-        .range(["#aed6f1", "#154360"]);
+        .range(["#fff9c4", "#fbc02d"]);
 
     const linkColorScale = d3.scaleLinear()
         .domain(d3.extent(graph.links, d => d.value))

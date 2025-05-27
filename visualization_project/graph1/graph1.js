@@ -1,4 +1,4 @@
-const margin = { top: 50, right: 50, bottom: 50, left: 60 },
+const margin = { top: 50, right: 50, bottom: 60, left: 80 },
       width = 900 - margin.left - margin.right,
       height = 500 - margin.top - margin.bottom;
 
@@ -13,7 +13,7 @@ const tooltip = d3.select("body").append("div")
                   .attr("class", "tooltip1")
                   .style("opacity", 0);
 
-d3.csv("visualization_project/data/linechart_data.csv").then(data => {
+d3.csv("data/linechart_data.csv").then(data => {
   data.forEach(d => {
     d.RelYear = +d.RelYear;
     d.AvgPerYear = +d.AvgPerYear;
@@ -36,51 +36,39 @@ d3.csv("visualization_project/data/linechart_data.csv").then(data => {
   xAxisGroup.call(xAxis);
   yAxisGroup.call(yAxis);
 
-  // Background area coloring
-  g.append("rect")
-   .attr("x", 0)
-   .attr("y", 0)
-   .attr("width", x(0))
-   .attr("height", height)
-   .attr("fill", "#f0f8ff");
+  // Background area in zoom layer
+  const zoomGroup = g.append("g").attr("class", "zoom-layer");
 
-  g.append("rect")
-   .attr("x", x(0))
-   .attr("y", 0)
-   .attr("width", width - x(0))
-   .attr("height", height)
-   .attr("fill", "#fffaf0");
+  const bgGroup = zoomGroup.append("g").attr("class", "bg-layer");
+  const rectBefore = bgGroup.append("rect").attr("fill", "#f0f8ff");
+  const rectAfter = bgGroup.append("rect").attr("fill", "#fffaf0");
 
-  // 기준선과 텍스트
-  const zeroLine = g.append("line")
+  const labelBefore = bgGroup.append("text")
+      .attr("y", 20)
+      .attr("fill", "#333")
+      .style("font-size", "14px")
+      .text("得奖前");
+
+  const labelAfter = bgGroup.append("text")
+      .attr("y", 20)
+      .attr("fill", "#333")
+      .style("font-size", "14px")
+      .text("得奖后");
+
+  const zeroLine = zoomGroup.append("line")
                     .attr("stroke", "red")
                     .attr("stroke-width", 2)
                     .attr("stroke-dasharray", "4 2");
 
-  const zeroText = g.append("text")
+  const zeroText = zoomGroup.append("text")
                     .attr("fill", "red")
                     .style("font-weight", "bold")
                     .style("font-size", "13px")
                     .text("诺奖得奖年份");
 
-  g.append("text")
-   .attr("x", x(0) / 2)
-   .attr("y", 20)
-   .text("得奖前")
-   .attr("fill", "#333")
-   .style("font-size", "14px");
-
-  g.append("text")
-   .attr("x", x(0) + (width - x(0)) / 2)
-   .attr("y", 20)
-   .text("得奖后")
-   .attr("fill", "#333")
-   .style("font-size", "14px");
-
   const avgValue = d3.mean(data, d => d.AvgPerYear);
 
-  const avgLine = g.append("line")
-    .attr("class", "avg-line")
+  const avgLine = zoomGroup.append("line")
     .attr("stroke", "green")
     .attr("stroke-width", 2)
     .attr("stroke-dasharray", "4 4")
@@ -94,13 +82,11 @@ d3.csv("visualization_project/data/linechart_data.csv").then(data => {
       tooltip.transition().duration(500).style("opacity", 0);
     });
 
-  const avgText = g.append("text")
+  const avgText = zoomGroup.append("text")
                    .attr("fill", "green")
                    .style("font-size", "13px")
                    .style("font-weight", "bold")
                    .text("平均值");
-
-  const zoomGroup = g.append("g").attr("class", "zoom-layer");
 
   const line = d3.line()
                  .x(d => x(d.RelYear))
@@ -116,8 +102,6 @@ d3.csv("visualization_project/data/linechart_data.csv").then(data => {
   const dots = zoomGroup.selectAll("circle")
      .data(data)
      .enter().append("circle")
-     .attr("cx", d => x(d.RelYear))
-     .attr("cy", d => y(d.AvgPerYear))
      .attr("r", 4)
      .attr("fill", "orange")
      .on("mouseover", (event, d) => {
@@ -167,13 +151,39 @@ d3.csv("visualization_project/data/linechart_data.csv").then(data => {
       avgText
         .attr("x", width - 80)
         .attr("y", zy(avgValue) - 6);
+
+      rectBefore
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("width", zx(0))
+        .attr("height", height);
+
+      rectAfter
+        .attr("x", zx(0))
+        .attr("y", 0)
+        .attr("width", width - zx(0))
+        .attr("height", height);
+
+      labelBefore.attr("x", zx(0) / 2);
+      labelAfter.attr("x", zx(0) + (width - zx(0)) / 2);
     });
 
-  // 초기 위치
-  zeroLine.attr("x1", x(0)).attr("x2", x(0)).attr("y1", 0).attr("y2", height);
-  zeroText.attr("x", x(0) - 40).attr("y", -10);
-  avgLine.attr("x1", 0).attr("x2", width).attr("y1", y(avgValue)).attr("y2", y(avgValue));
-  avgText.attr("x", width - 80).attr("y", y(avgValue) - 6);
+  // 초기 위치 설정
+  svg.call(zoom.transform, d3.zoomIdentity);
 
   svg.call(zoom);
+
+  // 축 라벨
+  svg.append("text")
+    .attr("text-anchor", "middle")
+    .attr("x", margin.left + width / 2)
+    .attr("y", height + margin.top + 40)
+    .style("font-size", "14px")
+    .text("相对年份");
+
+  svg.append("text")
+    .attr("text-anchor", "middle")
+    .attr("transform", `translate(15, ${margin.top + height / 2}) rotate(-90)`)
+    .style("font-size", "14px")
+    .text("平均论文数");
 });
