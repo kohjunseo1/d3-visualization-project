@@ -59,8 +59,8 @@
     };
 
     Promise.all([
-    d3.csv("data/nobel_awards.csv"),
-    d3.json("data/world_countries.json")
+    d3.csv("visualization_project/data/nobel_awards.csv"),
+    d3.json("visualization_project/data/world_countries.json")
     ]).then(([awardData, world]) => {
 
     const countryCounts = {};
