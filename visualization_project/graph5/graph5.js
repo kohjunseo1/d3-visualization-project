@@ -42,7 +42,7 @@
     yearRange.value = maxYear;
     yearValue.textContent = maxYear;
 
-    // 현재 선택된 모드 (누적: cumulative, 연도별: yearly)
+    // 模式转换
     let currentMode = "cumulative";
 
     function getSelectedCountries() {
@@ -50,7 +50,7 @@
         return Array.from(checkedBoxes).map(cb => cb.value);
     }
 
-    // 연도별 데이터 (yearly mode)일 때, 누적 합이 아닌 각 연도 데이터만 반환
+    // 年度模式的 (yearly mode) 可视化变化
     function getYearlyData(filteredData, selectedCountries) {
         return filteredData.map(d => {
         const entry = { Year: d.Year };
@@ -61,7 +61,7 @@
         });
     }
 
-    // 누적 데이터 (cumulative mode)일 때, 누적 합산된 데이터 반환
+    // 累计模式 (cumulative mode)
     function getCumulativeData(filteredData, selectedCountries) {
         let cumData = [];
         let cumSum = {};
@@ -157,7 +157,7 @@
             tooltip.style("display", "none");
         });
 
-        // 범례
+        // 范例
         const legend = svg.selectAll(".legend")
         .data(selectedCountries)
         .enter()
@@ -177,25 +177,24 @@
 
     }
 
-    // 초기 체크박스 생성
+    // 最初checkbox
     createCheckboxes();
 
-    // 최초 그래프 렌더링 (최대 연도로)
     updateChart(maxYear);
 
-    // 슬라이더 값 변경 시
+    // 滑动功能
     yearRange.addEventListener("input", () => {
         const val = +yearRange.value;
         yearValue.textContent = val;
         updateChart(val);
     });
 
-    // 체크박스 변경 시
+    // checkbox功能
     d3.selectAll("#countryFilterBox input[type=checkbox]").on("change", () => {
         updateChart(+yearRange.value);
     });
 
-    // 모드 변경 시
+    // 模式变化
     const modeRadios = document.querySelectorAll('input[name="mode"]');
     modeRadios.forEach(radio => {
         radio.addEventListener("change", () => {

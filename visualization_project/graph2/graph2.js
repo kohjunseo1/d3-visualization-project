@@ -232,10 +232,8 @@
       .attr("height", 0)
       .remove();
 
-      // 평균 ΔT 계산
     const meanDeltaT = d3.mean(deltaTs);
 
-    // 평균선 그리기 (수평 막대 위에 세로선)
     const meanLine = histSvg.selectAll(".mean-line")
       .data([meanDeltaT]);
 
@@ -251,7 +249,7 @@
       .attr("y2", histHeight)
       .attr("stroke", "black")
       .attr("stroke-width", 2)
-      .attr("stroke-dasharray", "4 2"); // 점선 스타일
+      .attr("stroke-dasharray", "4 2"); 
 
     meanLine.exit().remove();
 
@@ -264,9 +262,9 @@
       .merge(meanText)
       .transition()
       .duration(500)
-      .attr("x", d => xHistScale(d) + 5)  // 선 오른쪽 약간 띄워서
-      .attr("y", 20)  // 위쪽에 위치
-      .text(d => `平均ΔT: ${d.toFixed(2)} 年`)  // 소수점 2자리까지 표시
+      .attr("x", d => xHistScale(d) + 5)  
+      .attr("y", 20)  
+      .text(d => `平均ΔT: ${d.toFixed(2)} 年`)  
       .attr("fill", "black")
       .style("font-size", "12px")
       .style("font-weight", "bold");

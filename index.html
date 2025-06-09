@@ -4,14 +4,11 @@
   <meta charset="UTF-8" />
   <title>诺贝尔奖可视化仪表板 (Nobel Prize Visualization Dashboard)</title>
 
-  <!-- D3.js 및 관련 라이브러리 -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
 
-  <!-- 공통 스타일 -->
   <link rel="stylesheet" href="visualization_project/css/style.css" />
 
-  <!-- 그래프별 스타일 -->
   <link rel="stylesheet" href="visualization_project/graph1/graph1.css" />
   <link rel="stylesheet" href="visualization_project/graph2/graph2.css" />
   <link rel="stylesheet" href="visualization_project/graph3/graph3.css" />
@@ -23,11 +20,11 @@
   <style>
 
 
-    /* 소개 섹션 스타일 */
+
     .intro-section {
       text-align: center;
       padding: 50px 20px;
-      background-color: #f5f5f5; /* 연한 회색 */
+      background-color: #f5f5f5; 
     }
     .intro-section h1 {
       font-size: 36px;
@@ -61,7 +58,7 @@
     }
 
   
-    /* hr 간격 유지 */
+
     hr {
       margin: 40px 0;
       border: none;
@@ -71,7 +68,7 @@
 </head>
 <body>
 
-  <!-- 🔶 소개 섹션 -->
+
   <section class="intro-section">
     <h1>诺贝尔奖可视化仪表板</h1>
     <h3>一场关于科学、时间与认知的可视化探索</h3>
@@ -99,7 +96,7 @@
   <h2>第一部分：时间 - 时间的节奏与延迟</h2>
   <p>科学的发展并非线性，时间蕴含着贡献与认可之间的延迟与节奏。</p>
 </section>
-  <!-- 🔷 그래프 1 -->
+  <!-- 🔷 图1 -->
   <section id="graph1-section" class="chart-container">
     <h2>① 每年获奖相关论文数量均值 (Average Number of Papers per Year Relative to Nobel Prize)</h2>
     <p class="graph-description">
@@ -111,7 +108,7 @@
 
   <hr />
 
-  <!-- 🔷 그래프 2 -->
+  <!-- 🔷 图2 -->
   <section id="graph1-section">
     <h2>② 得奖论文发表年份 vs 获奖年份 (Publication Year vs Prize Year - Award-Winning Papers)</h2>
     <p class="graph-description">
@@ -152,7 +149,7 @@
   <p>科学是一张不断扩展和重组的知识网络，既分化又相互连接。</p>
 </section>
 
-  <!-- 🔷 그래프 3 -->
+  <!-- 🔷 图3 -->
   <section id="graph2-section">
     <h2>③ 各领域子方向年度趋势 (Yearly Subfield Trends Across Categories)</h2>
     <p class="graph-description">
@@ -174,7 +171,7 @@
 
   <hr />
 
-  <!-- 🔷 그래프 4 -->
+  <!-- 🔷 图4 -->
   <section id="graph2-section">
     <h2>④ 共现关键词网络图 (Co-occurring Keyword Network)</h2>
  <p class="graph-description">
@@ -200,7 +197,7 @@
   <p>知识的地理分布呈现出高度集聚的态势，科学活动与空间密切相关。</p>
 </section>
 
-  <!-- 🔷 그래프 5 -->
+  <!-- 🔷 图5 -->
   <section id="graph3-section">
     <h2>⑤ 国家/机构获奖趋势竞赛图 (Country/Institution Award Trends)</h2>
  <p class="graph-description">
@@ -223,7 +220,7 @@
 
   <hr />
 
-  <!-- 🔷 그래프 6 -->
+  <!-- 🔷 图6 -->
   <section id="graph3-section">
     <h2>⑥ 获奖集中度 (Nobel Prize Winning Concentration)</h2>
   <p class="graph-description">
@@ -250,7 +247,7 @@
   <p>科学用语言记录世界的变化，而语言也塑造了科学的边界。</p>
 </section>
 
-  <!-- 🔷 그래프 7 -->
+  <!-- 🔷 图7 -->
   <section id="graph4-section">
     <h2>⑦ 按年份变化的词云图 (Dynamic Word Cloud by Year)</h2>
  <p class="graph-description">
@@ -273,7 +270,7 @@
 
   <hr />
 
-  <!-- 🔶 결론 섹션 -->
+  <!-- 🔶 结论-->
   <section class="intro-section" style="background-color:#eef2f5;">
     <h1>结语：科学奖项的另一种阅读方式</h1>
     <p>
@@ -290,7 +287,7 @@
     <button class="intro-button" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">回到顶部 ⬆</button>
   </section>
 
-  <!-- 🔸 자바스크립트 파일들 -->
+
   <script src="visualization_project/graph1/graph1.js"></script>
   <script src="visualization_project/graph2/graph2.js"></script>
   <script src="visualization_project/graph3/graph3.js"></script>

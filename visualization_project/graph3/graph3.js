@@ -11,19 +11,18 @@
     let globalData = null;
 
     const yearSelect = d3.select("#year-select");
-    const categorySelect = d3.select("#category-select"); // 카테고리 선택 셀렉터
+    const categorySelect = d3.select("#category-select"); 
 
-    // 카테고리별 데이터 파일 맵핑
     const categoryToFile = {
     "Physics": "visualization_project/data/Ph_subfield1.csv",
     "Chemistry": "visualization_project/data/Ch_subfield1.csv",
     "Medicine": "visualization_project/data/Me_subfield1.csv"
     };
 
-    // 갈색계열 (트리맵 고정)
+
     const brownColors = ["#A0522D", "#D2691E", "#CD853F", "#F4A460", "#DEB887"];
 
-    // 선버스트 색상 그룹 5가지 (상위 subfield 5개 각각에 할당)
+    
     const sunburstColorGroups = [
     ["#6CA0DC", "#1E90FF", "#00BFFF", "#87CEEB", "#4682B4"],
     ["#7B68EE", "#836FFF", "#8A2BE2", "#9370DB", "#BA55D3"],
@@ -42,7 +41,6 @@
     }
 
     d3.csv(dataFile).then(data => {
-        // 숫자 변환, 소문자 처리
         data.forEach(d => {
         d["Prize year"] = +d["Prize year"];
         d.journal_lower = d.journal_lower ? d.journal_lower.toLowerCase() : "";
@@ -51,7 +49,7 @@
 
         globalData = data;
 
-        // 연도 목록 생성 및 셀렉터 업데이트
+        
         const years = Array.from(new Set(data.map(d => d["Prize year"]))).sort((a, b) => a - b);
 
         yearSelect.selectAll("option").remove();
@@ -72,13 +70,13 @@
     function updateVisualizations(year) {
     if (!globalData) return;
 
-    // 필터링: 연도, journal_lower 유효, Subfield 유효
+    
     const filteredClean = globalData
         .filter(d => d["Prize year"] === year)
         .filter(d => d.journal_lower && d.journal_lower !== "unknown")
         .filter(d => d.Subfield && d.Subfield !== "");
 
-    // treemap 데이터: subfield > journal_lower 별 갯수 집계
+    
     const nestedTreemap = d3.rollup(
         filteredClean,
         v => v.length,
@@ -99,7 +97,6 @@
 
     drawTreemap(treemapRoot);
 
-    // 상위 subfield 5개 추출
     const subfieldCounts = Array.from(
         d3.rollup(filteredClean, v => v.length, d => d.Subfield),
         ([subfield, count]) => ({ subfield, count })
@@ -115,7 +112,6 @@
         sunburstSubfieldColorAssign.set(sf, sunburstColorGroups[i % sunburstColorGroups.length]);
     });
 
-    // 선버스트는 상위 5개 subfield만 필터링
     const filteredTop = filteredClean.filter(d => topSubfields.includes(d.Subfield));
 
     const nestedSunburst = d3.rollup(
@@ -220,13 +216,12 @@
         .text(d => `${d.data.name} (${d.value})`)
         .style("font-size", function(d) {
             const width = d.x1 - d.x0;
-            // 너비에 따라 글씨 크기 조절
             if (width < 30) {
                 return "8px";
             } else if (width < 60) {
                 return "10px";
             } else {
-                return "16px"; // 원하는 크기로 변경
+                return "16px"; 
             }
         });
 }
@@ -286,9 +281,7 @@
         });
     }
 
-    // 초기 로드 및 이벤트 리스너 세팅
     function setup() {
-    // 카테고리 선택 옵션 세팅
     const categories = Object.keys(categoryToFile);
     categorySelect.selectAll("option")
         .data(categories)
@@ -296,17 +289,16 @@
         .attr("value", d => d)
         .text(d => d);
 
-    // 초기 카테고리 로드
+
     const initCategory = categories[0];
     categorySelect.property("value", initCategory);
     loadDataAndInit(initCategory);
 
-    // 카테고리 변경 이벤트
+
     categorySelect.on("change", function () {
         loadDataAndInit(this.value);
     });
 
-    // 연도 변경 이벤트
     yearSelect.on("change", function () {
         updateVisualizations(+this.value);
     });

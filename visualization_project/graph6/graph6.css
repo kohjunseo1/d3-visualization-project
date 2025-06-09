@@ -58,14 +58,14 @@ td.heat {
 .heat-5 { background-color: #08519c; }
 
 
-/* 지도 path hover 강조 */
+
 #choropleth-map path:hover {
   stroke-width: 2;
   stroke: #000;
   cursor: pointer;
 }
 
-/* 범례 스타일 */
+
 #legend6 {
   width: 350px;
   margin: 10px auto 0;

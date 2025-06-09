@@ -38,7 +38,7 @@ h2 {
   border-radius: 5px;
   font-size: 14px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  word-break: break-word; /* 이름 길어질때 줄바꿈 */
+  word-break: break-word; 
   text-align: left;
   height: 500px;
 }
@@ -98,5 +98,4 @@ h2 {
 
 #histogram {
   margin-top: 20px;
-  /* 히스토그램 svg가 여기 들어감 */
 }

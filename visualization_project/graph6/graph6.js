@@ -12,18 +12,18 @@
 
     const path = d3.geoPath().projection(projection);
 
-    // 0인 국가용 색상
-    const zeroColor = "#eee";  // 0인 국가용 색상
+    
+    const zeroColor = "#eee";  
 
-    // 단일 색상으로 명도를 조절할 기준 색상
+    
     const baseColor = d3.interpolateReds; 
 
-    // 데이터의 최소값과 최대값을 찾아서 색상 스케일의 도메인으로 설정
+    
     const colorScale = d3.scaleSequential()
     .interpolator(baseColor)
-    .domain([0, 100]); // 예시로 0부터 100까지의 범위를 사용
+    .domain([0, 100]); 
 
-    // CSV 국가명 → GeoJSON 국가명 매핑 (필요시 추가)
+    
     const countryNameMap = {
     "USA": "United States of America",
     "UK": "United Kingdom",
@@ -75,22 +75,19 @@
         }
     });
 
-    // GeoJSON 각 국가에 수상 횟수 연결
+    
     world.features.forEach(f => {
         const geoName = f.properties.name;
         f.properties.awards = countryCounts[geoName] || 0;
     });
 
-    // 줌/팬 설정용 그룹
     const g = svg.append("g");
 
-    // 지도 그리기
     const countries = g.selectAll("path")
         .data(world.features)
         .join("path")
         .attr("d", path)
         .attr("fill", d => {
-        // 0이면 연한 회색
         if (d.properties.awards === 0) return zeroColor;
         return colorScale(d.properties.awards);
         })
@@ -108,7 +105,6 @@
         tooltip.classed("hidden", true);
         });
 
-    // 줌 함수 정의
     const zoom = d3.zoom()
         .scaleExtent([1, 8])
         .on("zoom", event => {
@@ -117,18 +113,15 @@
 
     svg.call(zoom);
 
-    // 툴팁 위치 조정 함수 (화면 밖 안 나가도록)
     function moveTooltip(event) {
         const tooltipWidth = tooltip.node().offsetWidth;
         const tooltipHeight = tooltip.node().offsetHeight;
         let x = event.pageX + 15;
         let y = event.pageY - 30;
 
-        // 우측 화면 밖 체크
         if (x + tooltipWidth > window.innerWidth) {
         x = event.pageX - tooltipWidth - 15;
         }
-        // 상단 화면 밖 체크
         if (y < 0) {
         y = event.pageY + 15;
         }
@@ -144,14 +137,14 @@
     }).catch(console.error);
 
 
-    // 범례 생성 함수 (0 포함, 색상+라벨 개수 맞춤)
+    
     function createLegend() {
     const legend = d3.select("#legend6");
     legend.html("");
 
     const numSteps = 7;
     const legendColors = d3.range(numSteps).map(i => colorScale(i * 100 / (numSteps - 1)));
-    const labels = ["0", "15", "30", "45", "60", "75", "100+"];  // 7개 라벨
+    const labels = ["0", "15", "30", "45", "60", "75", "100+"];  
 
     const legendItems = legend.selectAll(".legend6-item")
         .data(legendColors)
@@ -176,7 +169,6 @@
 
 
 
-    // 히트맵 함수는 기존과 동일
     function createHeatmap(awardData) {
     const instCounts = {};
     awardData.forEach(d => {
