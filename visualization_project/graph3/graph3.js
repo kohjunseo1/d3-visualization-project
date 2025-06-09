@@ -215,11 +215,21 @@
 
     nodes.append("text")
         .attr("x", 4)
-        .attr("y", 14)
-        .attr("font-size", "12px")
+        .attr("y", d => (d.y1 - d.y0) / 2)
         .attr("fill", "white")
-        .text(d => `${d.data.name} (${d.value})`);
-    }
+        .text(d => `${d.data.name} (${d.value})`)
+        .style("font-size", function(d) {
+            const width = d.x1 - d.x0;
+            // 너비에 따라 글씨 크기 조절
+            if (width < 30) {
+                return "8px";
+            } else if (width < 60) {
+                return "10px";
+            } else {
+                return "16px"; // 원하는 크기로 변경
+            }
+        });
+}
 
     function drawSunburst(data) {
     sunburstDiv.select("svg").remove();

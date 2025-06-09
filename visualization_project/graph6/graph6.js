@@ -15,14 +15,13 @@
     // 0인 국가용 색상
     const zeroColor = "#eee";  // 0인 국가용 색상
 
-    const colorDomain = [1, 5, 10, 20, 50, 100];
-    // d3.schemeSet2는 7개인데, 0용 색상 때문에 6개만 슬라이스
-    const colorRange = d3.schemeSet2.slice(0, 6);
+    // 단일 색상으로 명도를 조절할 기준 색상
+    const baseColor = d3.interpolateReds; 
 
-    const colorScale = d3.scaleThreshold()
-    .domain(colorDomain)
-    .range(colorRange);
-
+    // 데이터의 최소값과 최대값을 찾아서 색상 스케일의 도메인으로 설정
+    const colorScale = d3.scaleSequential()
+    .interpolator(baseColor)
+    .domain([0, 100]); // 예시로 0부터 100까지의 범위를 사용
 
     // CSV 국가명 → GeoJSON 국가명 매핑 (필요시 추가)
     const countryNameMap = {
@@ -150,11 +149,12 @@
     const legend = d3.select("#legend6");
     legend.html("");
 
-    const colors = [zeroColor, ...colorRange];  // 총 7개 색상
-    const labels = ["0", "1-4", "5-9", "10-19", "20-49", "50-99", "100+"];  // 7개 라벨
+    const numSteps = 7;
+    const legendColors = d3.range(numSteps).map(i => colorScale(i * 100 / (numSteps - 1)));
+    const labels = ["0", "15", "30", "45", "60", "75", "100+"];  // 7개 라벨
 
     const legendItems = legend.selectAll(".legend6-item")
-        .data(colors)
+        .data(legendColors)
         .join("div")
         .attr("class", "legend6-item")
         .style("display", "flex")
